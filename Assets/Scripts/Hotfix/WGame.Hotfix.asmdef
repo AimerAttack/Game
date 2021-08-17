@@ -1,0 +1,19 @@
+{
+    "name": "WGame.Hotfix",
+    "rootNamespace": "",
+    "references": [
+        "GUID:35295ad6ea5e54f398d9aaaf70f9079e",
+        "GUID:dd15b64d31ee44ce181b55c32784d6e2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
