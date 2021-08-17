@@ -68,6 +68,14 @@
      <Compile Include="Assets\Scripts\GameFrame\Core\Editor\GameFrameInspector.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Core\Editor\Type.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Core\Editor\ConfigPathAttribute.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Res\ResourceComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Res\IResourceManager.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Download\DownloadComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Event\EventComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Network\NetworkComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Scene\SceneComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\Sound\SoundComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Core\Script\WebRequest\WebRequestComponent.cs" />
      <None Include="Assets\Scripts\GameFrame\Core\GameFrame.Core.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -674,7 +682,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Scripts\GameFrame\Core\Script\Res" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

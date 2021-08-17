@@ -8,30 +8,78 @@ namespace GameFrame.Core
         private static readonly Dictionary<Type, GameFrameComponentBase> components =
             new Dictionary<Type, GameFrameComponentBase>();
 
-        public static BasicComponent basic
+        public static BasicComponent Basic
         {
             get;
             private set;
         }
         
-        public static FsmComponent fsm
+        public static FsmComponent Fsm
         {
             get;
             private set;
         }
 
-        public static ProcedureComponent procedure
+        public static ProcedureComponent Procedure
         {
             get;
             private set;
         }
 
+        public static ResourceComponent Res
+        {
+            get;
+            private set;
+        }
+
+        public static DownloadComponent Download
+        {
+            get;
+            private set;
+        }
+
+        public static EventComponent Event
+        {
+            get;
+            private set;
+        }
+
+        public static NetworkComponent Network
+        {
+            get;
+            private set;
+        }
+
+        public static SceneComponent Scene
+        {
+            get;
+            private set;
+        }
+
+        public static SoundComponent Sound
+        {
+            get;
+            private set;
+        }
+
+        public static WebRequestComponent WebRequest
+        {
+            get;
+            private set;
+        }
         
         public static void InitBuildInComponents()
         {
-            basic = CoreEntry.GetComponent<BasicComponent>();
-            fsm = CoreEntry.GetComponent<FsmComponent>();
-            procedure = CoreEntry.GetComponent<ProcedureComponent>();
+            Basic = GetComponent<BasicComponent>();
+            Fsm = GetComponent<FsmComponent>();
+            Procedure = GetComponent<ProcedureComponent>();
+            Res = GetComponent<ResourceComponent>();
+            Download = GetComponent<DownloadComponent>();
+            Event = GetComponent<EventComponent>();
+            Network = GetComponent<NetworkComponent>();
+            Scene = GetComponent<SceneComponent>();
+            Sound = GetComponent<SoundComponent>();
+            WebRequest = GetComponent<WebRequestComponent>();
         }
         
         public static void RegistComponent(GameFrameComponentBase comp)
@@ -61,6 +109,7 @@ namespace GameFrame.Core
 
         public static void ShutDown(ShutDownType type)
         {
+            
         }
 
     }
