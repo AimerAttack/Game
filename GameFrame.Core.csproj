@@ -344,6 +344,12 @@
      <Reference Include="clipper_library">
      <HintPath>/Users/attack/Documents/WGame/Library/PackageCache/com.unity.cinemachine@2.7.5/Runtime/ThirdParty/clipper_library.dll</HintPath>
      </Reference>
+     <Reference Include="Google.Protobuf">
+     <HintPath>/Users/attack/Documents/WGame/Assets/Plugins/Protobuf/Google.Protobuf.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>/Users/attack/Documents/WGame/Assets/Plugins/Protobuf/System.Memory.dll</HintPath>
+     </Reference>
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
      </Reference>
