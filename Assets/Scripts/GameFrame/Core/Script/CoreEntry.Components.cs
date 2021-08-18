@@ -50,12 +50,6 @@ namespace GameFrame.Core
             private set;
         }
 
-        public static SceneComponent Scene
-        {
-            get;
-            private set;
-        }
-
         public static SoundComponent Sound
         {
             get;
@@ -73,11 +67,10 @@ namespace GameFrame.Core
             Basic = GetComponent<BasicComponent>();
             Fsm = GetComponent<FsmComponent>();
             Procedure = GetComponent<ProcedureComponent>();
+            Event = GetComponent<EventComponent>();
             Res = GetComponent<ResourceComponent>();
             Download = GetComponent<DownloadComponent>();
-            Event = GetComponent<EventComponent>();
             Network = GetComponent<NetworkComponent>();
-            Scene = GetComponent<SceneComponent>();
             Sound = GetComponent<SoundComponent>();
             WebRequest = GetComponent<WebRequestComponent>();
         }

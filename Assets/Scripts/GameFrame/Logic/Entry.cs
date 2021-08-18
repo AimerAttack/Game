@@ -14,10 +14,17 @@ namespace GameFrame.Logic
             CoreEntry.InitBuildInComponents();
             InitCustomComponents();
         }
+
+
+        public static HttpComponent Http
+        {
+            get;
+            private set;
+        }
         
         void InitCustomComponents()
         {
-
+            Http = CoreEntry.GetComponent<HttpComponent>();
         }
     }
 }

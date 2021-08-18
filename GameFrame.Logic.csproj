@@ -45,6 +45,12 @@
      <Compile Include="Assets\Scripts\GameFrame\Settings\MainInput.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Logic\Procedure\ProcedureInit.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\HttpComponent.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Entry.Utility.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\RequestBase.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\HttpRequest.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
      <None Include="Assets\Scripts\GameFrame\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
