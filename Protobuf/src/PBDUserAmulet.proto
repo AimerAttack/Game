@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+message PBDUserAmulet {
+    uint64 id                          = 1;
+    uint64 userId                      = 2;
+    uint32 amuletId                    = 3;
+    sint32 amuletType                  = 4;
+    sint32 status                      = 5;
+    uint64 hero                        = 6;
+    uint32 strengthenLevel             = 7;
+    uint32 promotionLevel              = 8;
+    uint32 promotionStage              = 9;
+    uint32 transmuteLevel              = 10;
+    uint32 transmuteStage              = 11;
+    uint32 transmuteExp                = 12;
+    map<uint32, uint32> transmuteCost  = 13;
+}

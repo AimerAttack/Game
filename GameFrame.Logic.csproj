@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GameFrame\Logic\Http\HttpRequest.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
+     <Compile Include="Assets\Scripts\GameFrame\Logic\Protos\cs\PBDUserAmulet.cs" />
      <None Include="Assets\Scripts\GameFrame\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -306,6 +307,12 @@
      </Reference>
      <Reference Include="System.Memory">
      <HintPath>/Users/attack/Documents/WGame/Assets/Plugins/Protobuf/System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.Unsafe">
+     <HintPath>/Users/attack/Documents/WGame/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>/Users/attack/Documents/WGame/Assets/Plugins/Protobuf/System.Buffers.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
