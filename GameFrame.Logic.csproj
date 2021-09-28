@@ -41,20 +41,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Protos\Config\define\CFAmulet.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\RequestBase.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Procedure\ProcedureInit.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Entry.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Settings\MainInput.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\HttpComponent.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Protos\Config\table\CFTableCFAmulet.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Protos\Config\common\CFBaseTableInfo.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Http\HttpRequest.cs" />
-     <Compile Include="Assets\Scripts\GameFrame\Logic\Entry.Utility.cs" />
-     <None Include="Assets\Scripts\GameFrame\GameFrame.Logic.asmdef" />
+     <Compile Include="Assets\GameFrame\Logic\Protos\Config\define\CFAmulet.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\RequestBase.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureInit.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Entry.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\HttpComponent.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Protos\Config\table\CFTableCFAmulet.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Protos\Config\common\CFBaseTableInfo.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\HttpRequest.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Entry.Utility.cs" />
+     <None Include="Assets\GameFrame\Logic\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

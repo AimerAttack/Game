@@ -802,14 +802,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GameFrame.Core.csproj">
-      <Project>{87c81707-38bf-8333-2f69-dfa4af012f62}</Project>
-      <Name>GameFrame.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="GameFrame.Logic.csproj">
-      <Project>{fb17d7d6-36db-d565-7732-93a13c097017}</Project>
-      <Name>GameFrame.Logic</Name>
-    </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{171caa5b-f503-9bdd-dac1-4ae36e40b428}</Project>
       <Name>AmplifyShaderEditor</Name>
@@ -821,6 +813,14 @@
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameFrame.Core.csproj">
+      <Project>{87c81707-38bf-8333-2f69-dfa4af012f62}</Project>
+      <Name>GameFrame.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameFrame.Logic.csproj">
+      <Project>{fb17d7d6-36db-d565-7732-93a13c097017}</Project>
+      <Name>GameFrame.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
