@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifyShaderEditor", "Ampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{26346f19-bd96-64e5-a156-57572db80a48}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{068a5a07-5d75-3287-2919-a4c453aa8ed0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{26346f19-bd96-64e5-a156-57572db80a48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Utility", "GameFrame.Utility.csproj", "{d417b471-a72d-f952-6978-6def59256bef}"
 EndProject
@@ -40,10 +40,10 @@ Global
 		{171caa5b-f503-9bdd-dac1-4ae36e40b428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26346f19-bd96-64e5-a156-57572db80a48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26346f19-bd96-64e5-a156-57572db80a48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{068a5a07-5d75-3287-2919-a4c453aa8ed0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{068a5a07-5d75-3287-2919-a4c453aa8ed0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26346f19-bd96-64e5-a156-57572db80a48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26346f19-bd96-64e5-a156-57572db80a48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d417b471-a72d-f952-6978-6def59256bef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d417b471-a72d-f952-6978-6def59256bef}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

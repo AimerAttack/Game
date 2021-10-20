@@ -41,13 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Dialogue\Editor\DialogueGraph.cs" />
-     <Compile Include="Assets\Dialogue\Editor\DialogueGraphView.cs" />
-     <Compile Include="Assets\Dialogue\Editor\GraphSaveUtility.cs" />
-     <Compile Include="Assets\Dialogue\Editor\NodeSearchWindow.cs" />
-     <Compile Include="Assets\Dialogue\Editor\DialogueNode.cs" />
-     <None Include="Assets\Dialogue\Editor\Resources\DialogueGraph.uss" />
-     <None Include="Assets\Dialogue\Editor\Resources\Node.uss" />
+     <Compile Include="Assets\Editor\GameEditorTool.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

@@ -42,11 +42,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Settings\MainInput.cs" />
-     <Compile Include="Assets\Dialogue\Runtime\ExposedProperty.cs" />
-     <Compile Include="Assets\Dialogue\Runtime\DialogueContainer.cs" />
-     <Compile Include="Assets\Dialogue\Runtime\DialogueNodeData.cs" />
-     <Compile Include="Assets\Dialogue\Runtime\NodeLinkData.cs" />
-     <Compile Include="Assets\Dialogue\Runtime\CommentBlockData.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
