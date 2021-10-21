@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Core", "GameFrame.Core.csproj", "{87c81707-38bf-8333-2f69-dfa4af012f62}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Logic", "GameFrame.Logic.csproj", "{fb17d7d6-36db-d565-7732-93a13c097017}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{6a8f88d8-e1ab-9bc4-1a38-f65a81021668}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Core", "GameFrame.Core.csproj", "{87c81707-38bf-8333-2f69-dfa4af012f62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}"
 EndProject
@@ -26,12 +26,12 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87c81707-38bf-8333-2f69-dfa4af012f62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87c81707-38bf-8333-2f69-dfa4af012f62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fb17d7d6-36db-d565-7732-93a13c097017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fb17d7d6-36db-d565-7732-93a13c097017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6a8f88d8-e1ab-9bc4-1a38-f65a81021668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6a8f88d8-e1ab-9bc4-1a38-f65a81021668}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87c81707-38bf-8333-2f69-dfa4af012f62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87c81707-38bf-8333-2f69-dfa4af012f62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8fc1fbdd-9693-3731-9cfe-deb2cdb74636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

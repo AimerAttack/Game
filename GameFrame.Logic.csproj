@@ -44,15 +44,15 @@
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\define\CFAmulet.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\RequestBase.cs" />
      <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureInit.cs" />
-     <Compile Include="Assets\GameFrame\Logic\Entry.cs" />
-     <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
-     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
-     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\HttpComponent.cs" />
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\table\CFTableCFAmulet.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Entry.cs" />
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\common\CFBaseTableInfo.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\HttpRequest.cs" />
      <Compile Include="Assets\GameFrame\Logic\Entry.Utility.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <None Include="Assets\GameFrame\Logic\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -306,26 +306,14 @@
      <Reference Include="UnityEditor.iOS.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-     </Reference>
      <Reference Include="DemiLib">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <Reference Include="DOTweenProEditor">
+     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTweenProEditor">
-     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
@@ -336,17 +324,14 @@
      <Reference Include="Sirenix.OdinInspector.Attributes">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-     </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.Serialization.Config">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="System.Buffers">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Protobuf/System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
@@ -354,17 +339,11 @@
      <Reference Include="System.Memory">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Protobuf/System.Memory.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.visualscripting@1.7.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="DOTween">
-     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Google.Protobuf">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Protobuf/Google.Protobuf.dll</HintPath>
-     </Reference>
-     <Reference Include="Sirenix.Serialization">
-     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
@@ -372,8 +351,8 @@
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>/Users/attack/Documents/Game/Game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>/Users/attack/Documents/Game/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

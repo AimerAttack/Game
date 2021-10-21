@@ -8,7 +8,7 @@ namespace Editor
 {
     public class GameEditorTool : OdinMenuEditorWindow
     {
-        [MenuItem("GameEditorTool/Open")]
+        [MenuItem("Tools/GameFrame")]
         public static void OpenWindow()
         {
             var window = GetWindow<GameEditorTool>();

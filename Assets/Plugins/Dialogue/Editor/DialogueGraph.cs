@@ -13,7 +13,7 @@ public class DialogueGraph : EditorWindow
     private DialogueGraphView _graphView;
     private string _fileName = "New Narrative";
     
-    [MenuItem("Graph/Dialogue Graph")]
+    // [MenuItem("Graph/Dialogue Graph")]
     public static void OpenDialogueGraphWindow()
     {
         var window = GetWindow<DialogueGraph>();
