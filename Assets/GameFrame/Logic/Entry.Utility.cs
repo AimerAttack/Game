@@ -9,14 +9,14 @@ namespace GameFrame.Logic
         {
             public static void AddListener(int id,EventHandler<GameEventArgs> handler)
             {
-                if(!CoreEntry.Event.Check(id,handler))
+                if(!Entry.Event.Check(id,handler))
                     return;
-                CoreEntry.Event.AddListener(id,handler);
+                Entry.Event.AddListener(id,handler);
             }
 
             public static void RemoveListener(int id, EventHandler<GameEventArgs> handler)
             {
-                CoreEntry.Event.RemoveListener(id,handler);
+                Entry.Event.RemoveListener(id,handler);
             }
         }
     }

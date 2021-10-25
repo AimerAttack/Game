@@ -8,72 +8,7 @@ namespace GameFrame.Core
         private static readonly Dictionary<Type, GameFrameComponentBase> components =
             new Dictionary<Type, GameFrameComponentBase>();
 
-        public static BasicComponent Basic
-        {
-            get;
-            private set;
-        }
-        
-        public static FsmComponent Fsm
-        {
-            get;
-            private set;
-        }
-
-        public static ProcedureComponent Procedure
-        {
-            get;
-            private set;
-        }
-
-        public static ResourceComponent Res
-        {
-            get;
-            private set;
-        }
-
-        public static DownloadComponent Download
-        {
-            get;
-            private set;
-        }
-
-        public static EventComponent Event
-        {
-            get;
-            private set;
-        }
-
-        public static NetworkComponent Network
-        {
-            get;
-            private set;
-        }
-
-        public static SoundComponent Sound
-        {
-            get;
-            private set;
-        }
-
-        public static WebRequestComponent WebRequest
-        {
-            get;
-            private set;
-        }
-        
-        public static void InitBuildInComponents()
-        {
-            Basic = GetComponent<BasicComponent>();
-            Fsm = GetComponent<FsmComponent>();
-            Procedure = GetComponent<ProcedureComponent>();
-            Event = GetComponent<EventComponent>();
-            Res = GetComponent<ResourceComponent>();
-            Download = GetComponent<DownloadComponent>();
-            Network = GetComponent<NetworkComponent>();
-            Sound = GetComponent<SoundComponent>();
-            WebRequest = GetComponent<WebRequestComponent>();
-        }
+       
         
         public static void RegistComponent(GameFrameComponentBase comp)
         {

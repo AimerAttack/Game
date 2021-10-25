@@ -94,6 +94,8 @@
      <Compile Include="Assets\GameFrame\Core\Script\WebRequest\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Core\Script\Log\LogLevel.cs" />
      <Compile Include="Assets\GameFrame\Core\Script\WebRequest\WebRequestAgentHelperCompleteEventArgs.cs" />
+     <Compile Include="Assets\GameFrame\Core\Script\Utility\Singleton.cs" />
+     <Compile Include="Assets\GameFrame\Core\Script\Utility\IBaseSingleton.cs" />
      <None Include="Assets\GameFrame\Core\GameFrame.Core.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

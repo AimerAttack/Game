@@ -11,20 +11,47 @@ namespace GameFrame.Logic
     {
         private void Start()
         {
-            CoreEntry.InitBuildInComponents();
+            InitBuildInComponents();
             InitCustomComponents();
         }
 
+        public static BasicComponent Basic { get; private set; }
 
-        public static HttpComponent Http
+        public static FsmComponent Fsm { get; private set; }
+
+        public static ProcedureComponent Procedure { get; private set; }
+
+        public static ResourceComponent Res { get; private set; }
+
+        public static DownloadComponent Download { get; private set; }
+
+        public static EventComponent Event { get; private set; }
+
+        public static NetworkComponent Network { get; private set; }
+
+        public static SoundComponent Sound { get; private set; }
+
+        public static WebRequestComponent WebRequest { get; private set; }
+
+
+        public static HttpComponent Http { get; private set; }
+
+        public static void InitBuildInComponents()
         {
-            get;
-            private set;
+            Basic = GameFrame.Core.CoreEntry.GetComponent<BasicComponent>();
+            Fsm = GameFrame.Core.CoreEntry.GetComponent<FsmComponent>();
+            Procedure = GameFrame.Core.CoreEntry.GetComponent<ProcedureComponent>();
+            Event = GameFrame.Core.CoreEntry.GetComponent<EventComponent>();
+            Res = GameFrame.Core.CoreEntry.GetComponent<ResourceComponent>();
+            Download = GameFrame.Core.CoreEntry.GetComponent<DownloadComponent>();
+            Network = GameFrame.Core.CoreEntry.GetComponent<NetworkComponent>();
+            Sound = GameFrame.Core.CoreEntry.GetComponent<SoundComponent>();
+            WebRequest = GameFrame.Core.CoreEntry.GetComponent<WebRequestComponent>();
         }
-        
+
         void InitCustomComponents()
         {
-            Http = CoreEntry.GetComponent<HttpComponent>();
+            Http = GameFrame.Core.CoreEntry.GetComponent<HttpComponent>();
         }
     }
 }

@@ -53,6 +53,9 @@
      <Compile Include="Assets\GameFrame\Logic\Http\HttpRequest.cs" />
      <Compile Include="Assets\GameFrame\Logic\Entry.Utility.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIBase.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Manager\UIManager.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\EUILayer.cs" />
      <None Include="Assets\GameFrame\Logic\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
