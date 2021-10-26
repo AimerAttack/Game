@@ -96,18 +96,28 @@
      <Compile Include="Assets\Plugins\Sirenix\Demos\Custom Attribute Processors\Scripts\AttributeProcessorPriorityExample.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Custom Attribute Processors\Scripts\SelfAndChildrenExample.cs" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\ExternalResources\Packer2DBox\About.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Extra\PluginSupport\TMPro\TMPro instructions.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Extra\PluginSupport\Playmaker\README.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicTableAdapter.txt" />
      <None Include="Assets\Plugins\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Resources\Com.TheFallenGames\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Extra\README.txt" />
      <None Include="Assets\Plugins\Sirenix\Readme.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicListAdapter.txt" />
      <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\link.xml" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Resources\Com.TheFallenGames\OSA\Templates\Scripts\BasicGridAdapter.txt" />
      <None Include="Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
      <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\ExternalResources\Packer2DBox\Packer2DBoxLICENSE.txt" />
      <None Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Icons\icons_by_ravenmore.txt" />
+     <None Include="Assets\Plugins\Com.TheFallenGames\OSA\Docs\Manual link.txt" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -808,6 +818,14 @@
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OSA-Editor.csproj">
+      <Project>{34922241-b727-590e-2cd7-f80b0fd37e13}</Project>
+      <Name>OSA-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OSA.csproj">
+      <Project>{a06431a9-bae2-ac84-175c-d8970d31b9da}</Project>
+      <Name>OSA</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

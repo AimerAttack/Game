@@ -800,6 +800,14 @@
       <Project>{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="OSA-Editor.csproj">
+      <Project>{34922241-b727-590e-2cd7-f80b0fd37e13}</Project>
+      <Name>OSA-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="OSA.csproj">
+      <Project>{a06431a9-bae2-ac84-175c-d8970d31b9da}</Project>
+      <Name>OSA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
