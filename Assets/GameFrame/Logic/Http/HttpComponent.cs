@@ -18,7 +18,7 @@ namespace GameFrame.Logic
 
         IEnumerator LateInit()
         {
-            yield return new WaitUntil(()=>CoreEntry.Event != null);
+            yield return new WaitUntil(()=>Entry.Event != null);
             
             Entry.Utility.AddListener(WebRequestFailureEventArgs.EventId,OnHttpRequestFailure);
             Entry.Utility.AddListener(WebRequestSuccessEventArgs.EventId,OnHttpRequestSuccess);
@@ -55,7 +55,7 @@ namespace GameFrame.Logic
 
             Log.Info($"HttpComponent:EnqueueRequest {req.Url}");
             _httpRequests.Add(req.Url, req);
-            CoreEntry.WebRequest.AddWebRequest(req.Url, req.WwwForm);
+            Entry.WebRequest.AddWebRequest(req.Url, req.WwwForm);
         }
         
         private void OnHttpRequestSuccess(object sender, GameEventArgs e)
@@ -127,7 +127,7 @@ namespace GameFrame.Logic
             {
                 if (req.RetryTimes > 0)
                 {
-                    CoreEntry.WebRequest.AddWebRequest(req.Url, req.WwwForm);
+                    Entry.WebRequest.AddWebRequest(req.Url, req.WwwForm);
                 }
                 else
                 {

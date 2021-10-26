@@ -43,18 +43,19 @@
   <ItemGroup>
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\define\CFAmulet.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\RequestBase.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Manager\UIManager.cs" />
      <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureInit.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\HttpComponent.cs" />
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\table\CFTableCFAmulet.cs" />
      <Compile Include="Assets\GameFrame\Logic\Entry.cs" />
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\common\CFBaseTableInfo.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureResUpdate.cs" />
      <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureLogin.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\WebRequestSuccessEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\HttpRequest.cs" />
      <Compile Include="Assets\GameFrame\Logic\Entry.Utility.cs" />
-     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\UI\Base\UIBase.cs" />
-     <Compile Include="Assets\GameFrame\Logic\UI\Manager\UIManager.cs" />
+     <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\UI\Base\EUILayer.cs" />
      <None Include="Assets\GameFrame\Logic\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
