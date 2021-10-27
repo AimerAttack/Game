@@ -12,9 +12,5 @@ namespace GameFrame.Core
             GameFrameLog.SetLogHelper(new DefaultLogHelper());
         }
 
-        private void Update()
-        {
-            CoreEntry.Update(Time.deltaTime, Time.unscaledDeltaTime);
-        }
     }
 }

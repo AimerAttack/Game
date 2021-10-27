@@ -35,23 +35,30 @@ namespace GameFrame.Logic
 
 
         public static HttpComponent Http { get; private set; }
+        public static UIManager UI { get; private set; }
 
         public static void InitBuildInComponents()
         {
-            Basic = GameFrame.Core.CoreEntry.GetComponent<BasicComponent>();
-            Fsm = GameFrame.Core.CoreEntry.GetComponent<FsmComponent>();
-            Procedure = GameFrame.Core.CoreEntry.GetComponent<ProcedureComponent>();
-            Event = GameFrame.Core.CoreEntry.GetComponent<EventComponent>();
-            Res = GameFrame.Core.CoreEntry.GetComponent<ResourceComponent>();
-            Download = GameFrame.Core.CoreEntry.GetComponent<DownloadComponent>();
-            Network = GameFrame.Core.CoreEntry.GetComponent<NetworkComponent>();
-            Sound = GameFrame.Core.CoreEntry.GetComponent<SoundComponent>();
-            WebRequest = GameFrame.Core.CoreEntry.GetComponent<WebRequestComponent>();
+            Basic = new BasicComponent();
+            Fsm = new FsmComponent();
+            Procedure = new ProcedureComponent();
+            Event = new EventComponent();
+            Res = new ResourceComponent();
+            Download = new DownloadComponent();
+            Network = new NetworkComponent();
+            Sound = new SoundComponent();
+            WebRequest = new WebRequestComponent();
         }
 
         void InitCustomComponents()
         {
-            Http = GameFrame.Core.CoreEntry.GetComponent<HttpComponent>();
+            Http = new HttpComponent();
+            UI = new UIManager();
+        }
+
+        private void Update()
+        {
+            CoreEntry.Update(Time.deltaTime, Time.unscaledDeltaTime);
         }
     }
 }
