@@ -11,6 +11,10 @@ namespace GameFrame.Logic
     {
         private void Start()
         {
+            DontDestroyOnLoad(this);
+            
+            Coroutine = this;
+            
             InitBuildInComponents();
             InitCustomComponents();
         }
@@ -37,6 +41,10 @@ namespace GameFrame.Logic
         public static HttpComponent Http { get; private set; }
         public static UIManager UI { get; private set; }
 
+        
+        public static MonoBehaviour Coroutine { get; private set; }
+
+        
         public static void InitBuildInComponents()
         {
             Basic = new BasicComponent();

@@ -10,6 +10,7 @@ namespace GameFrame.Logic
         
         private SortedDictionary<Type, UIBase> opendUI = new SortedDictionary<Type, UIBase>();
         private SortedDictionary<Type, UIBase> loadingUI = new SortedDictionary<Type, UIBase>();
+        private Dictionary<Type, UIBase> poolUI = new Dictionary<Type, UIBase>();
 
 
         public void Open<T>(object userData = null) where T : UIBase,new()
@@ -20,6 +21,11 @@ namespace GameFrame.Logic
             if(opendUI.ContainsKey(type))
                 return;
             var logic = new T();
+        }
+
+        public void Close<T>() where T : UIBase
+        {
+            
         }
     }
 }

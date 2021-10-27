@@ -738,9 +738,9 @@
       <Project>{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="GameFrame.Logic.csproj">
-      <Project>{fb17d7d6-36db-d565-7732-93a13c097017}</Project>
-      <Name>GameFrame.Logic</Name>
+    <ProjectReference Include="OSA.csproj">
+      <Project>{a06431a9-bae2-ac84-175c-d8970d31b9da}</Project>
+      <Name>OSA</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}</Project>
@@ -750,9 +750,9 @@
       <Project>{34922241-b727-590e-2cd7-f80b0fd37e13}</Project>
       <Name>OSA-Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="OSA.csproj">
-      <Project>{a06431a9-bae2-ac84-175c-d8970d31b9da}</Project>
-      <Name>OSA</Name>
+    <ProjectReference Include="GameFrame.Logic.csproj">
+      <Project>{fb17d7d6-36db-d565-7732-93a13c097017}</Project>
+      <Name>GameFrame.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

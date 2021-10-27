@@ -13,7 +13,7 @@ namespace GameFrame.Logic
         
         protected override void OnAwake()
         {
-            _lateInit = StartCoroutine(LateInit());
+            _lateInit = Entry.Coroutine.StartCoroutine(LateInit());
         }
 
         IEnumerator LateInit()
@@ -30,7 +30,7 @@ namespace GameFrame.Logic
         {
             if (_lateInit != null)
             {
-                StopCoroutine(_lateInit);
+                Entry.Coroutine.StopCoroutine(_lateInit);
                 _lateInit = null;
             }
 
