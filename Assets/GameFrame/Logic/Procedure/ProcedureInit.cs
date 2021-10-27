@@ -7,6 +7,8 @@ namespace GameFrame.Logic
         protected override void OnEnter()
         {
             base.OnEnter();
+
+            Entry.UI.Open<MainUI>();
             
             ChangeState<ProcedureLogin>();
         }

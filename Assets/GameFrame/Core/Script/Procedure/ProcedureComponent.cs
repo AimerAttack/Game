@@ -1,14 +1,13 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameFrame.Core
 {
     public class ProcedureComponent : GameFrameComponentBase
     {
-        [SerializeField]
         private string[] m_AvailableProcedureTypeNames = null;
-        [SerializeField]
         private string m_EntranceProcedureTypeName = null;
         
         private GameFrameProcedureBase m_EntranceProcedure = null;
@@ -28,38 +27,28 @@ namespace GameFrame.Core
             manager = CoreEntry.AddModule<ProcedureManager>();
         }
 
-        private IEnumerator Start()
+        public void Start(List<GameFrameProcedureBase> procedures)
         {
-            GameFrameProcedureBase[] procedures = new GameFrameProcedureBase[m_AvailableProcedureTypeNames.Length];
-            for (int i = 0; i < m_AvailableProcedureTypeNames.Length; i++)
+
+            if (procedures.Count == 0)
             {
-                Type procedureType = Utility.Assembly.GetType(m_AvailableProcedureTypeNames[i]);
-                if (procedureType == null)
-                {
-                    Log.Error("Can not find procedure type '{0}'.", m_AvailableProcedureTypeNames[i]);
-                    yield break;
-                }
-
-                procedures[i] = (GameFrameProcedureBase)Activator.CreateInstance(procedureType);
-                if (procedures[i] == null)
-                {
-                    Log.Error("Can not create procedure instance '{0}'.", m_AvailableProcedureTypeNames[i]);
-                    yield break;
-                }
-
-                if (m_EntranceProcedureTypeName == m_AvailableProcedureTypeNames[i])
-                {
-                    m_EntranceProcedure = procedures[i];
-                }
+                Log.Error("Procedure number is 0");
+                return;
             }
-
+            
+            m_EntranceProcedure = procedures[0];
             if (m_EntranceProcedure == null)
             {
                 Log.Error("Entrance procedure is invalid.");
-                yield break;
+                return;
             }
-            
-            manager.Initialize(CoreEntry.GetModule<FsmManager>(),procedures);
+
+            CoreEntry.Coroutine.StartCoroutine(DelayStart(procedures));
+        }
+
+        private IEnumerator DelayStart(List<GameFrameProcedureBase> procedures)
+        {
+            manager.Initialize(CoreEntry.GetModule<FsmManager>(),procedures.ToArray());
             
             yield return new WaitForEndOfFrame();
             

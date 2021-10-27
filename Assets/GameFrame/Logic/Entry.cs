@@ -9,11 +9,11 @@ namespace GameFrame.Logic
     [DisallowMultipleComponent]
     public partial class Entry : MonoBehaviour
     {
-        private void Start()
+        private void Awake()
         {
             DontDestroyOnLoad(this);
-            
-            Coroutine = this;
+
+            CoreEntry.Coroutine = this;
             
             InitBuildInComponents();
             InitCustomComponents();
@@ -41,10 +41,16 @@ namespace GameFrame.Logic
         public static HttpComponent Http { get; private set; }
         public static UIManager UI { get; private set; }
 
-        
-        public static MonoBehaviour Coroutine { get; private set; }
 
-        
+        public static MonoBehaviour Coroutine
+        {
+            get
+            {
+                return CoreEntry.Coroutine;
+            }
+        }
+
+
         public static void InitBuildInComponents()
         {
             Basic = new BasicComponent();
@@ -67,6 +73,17 @@ namespace GameFrame.Logic
         private void Update()
         {
             CoreEntry.Update(Time.deltaTime, Time.unscaledDeltaTime);
+        }
+
+        void Start()
+        {
+            List<GameFrameProcedureBase> procedures = new List<GameFrameProcedureBase>();
+            
+            procedures.Add(new ProcedureInit());
+            procedures.Add(new ProcedureLogin());
+            procedures.Add(new ProcedureResUpdate());
+            
+            Procedure.Start(procedures);
         }
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace GameFrame.Core
 {
@@ -8,6 +9,7 @@ namespace GameFrame.Core
         private static readonly Dictionary<Type, GameFrameComponentBase> components =
             new Dictionary<Type, GameFrameComponentBase>();
 
+        public static MonoBehaviour Coroutine { get; set; }
        
         
         public static void RegistComponent(GameFrameComponentBase comp)

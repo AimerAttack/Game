@@ -43,7 +43,7 @@
   <ItemGroup>
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\define\CFAmulet.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\RequestBase.cs" />
-     <Compile Include="Assets\GameFrame\Logic\UI\Manager\UIManager.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIManager.cs" />
      <Compile Include="Assets\GameFrame\Logic\Procedure\ProcedureInit.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\HttpComponent.cs" />
      <Compile Include="Assets\GameFrame\Logic\Protos\Config\table\CFTableCFAmulet.cs" />
@@ -57,6 +57,14 @@
      <Compile Include="Assets\GameFrame\Logic\UI\Base\UIBase.cs" />
      <Compile Include="Assets\GameFrame\Logic\Http\WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets\GameFrame\Logic\UI\Base\EUILayer.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIWindow.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIScreen.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIElement.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UICell.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIObjHolder.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Logic\Main\MainUI.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Logic\Main\MainUIHolder.cs" />
+     <Compile Include="Assets\GameFrame\Logic\UI\Base\UIFrame.cs" />
      <None Include="Assets\GameFrame\Logic\GameFrame.Logic.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.2.0b10/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

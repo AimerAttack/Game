@@ -7,13 +7,16 @@ namespace GameFrame.Logic
     public class UIManager : GameFrameComponentBase
     {
         private ulong SortId = 0;
-        
+
         private SortedDictionary<Type, UIBase> opendUI = new SortedDictionary<Type, UIBase>();
-        private SortedDictionary<Type, UIBase> loadingUI = new SortedDictionary<Type, UIBase>();
+
+        private SortedDictionary<Type, UIBase> loadingUI =
+            new SortedDictionary<Type, UIBase>();
+
         private Dictionary<Type, UIBase> poolUI = new Dictionary<Type, UIBase>();
 
 
-        public void Open<T>(object userData = null) where T : UIBase,new()
+        public void Open<T>(object userData = null) where T : UIBase,new ()
         {
             var type = typeof(T);
             if(loadingUI.ContainsKey(type))

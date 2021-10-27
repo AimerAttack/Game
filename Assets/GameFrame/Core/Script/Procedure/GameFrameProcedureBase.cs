@@ -1,6 +1,6 @@
 namespace GameFrame.Core
 {
-    public class GameFrameProcedureBase : FsmState<ProcedureManager>
+    public abstract class GameFrameProcedureBase : FsmState<ProcedureManager>
     {
         
     }
