@@ -81,7 +81,11 @@ namespace GameFrame.Logic
             
             procedures.Add(new ProcedureInit());
             procedures.Add(new ProcedureLogin());
-            procedures.Add(new ProcedureResUpdate());
+            procedures.Add(new ProcedureCheckUpdte());
+            procedures.Add(new ProcedureEnterMainScene());
+            procedures.Add(new ProcedureGetServerList());
+            procedures.Add(new ProcedureUpdateClient());
+            procedures.Add(new ProcedureUpdateRes());
             
             Procedure.Start(procedures);
         }
