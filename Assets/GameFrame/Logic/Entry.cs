@@ -40,6 +40,7 @@ namespace GameFrame.Logic
 
         public static HttpComponent Http { get; private set; }
         public static UIManager UI { get; private set; }
+        public static TipsComponent Tips { get; private set; }
 
 
         public static MonoBehaviour Coroutine
@@ -68,6 +69,7 @@ namespace GameFrame.Logic
         {
             Http = new HttpComponent();
             UI = new UIManager();
+            Tips = new TipsComponent();
         }
 
         private void Update()

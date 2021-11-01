@@ -11,6 +11,10 @@ namespace GameFrame.Logic
 
         private bool inited = false;
         public GameObject gameObject { get; private set; }
+        public object openParam { get; set; }
+
+        public UIGroup group { get; set; }
+        public bool IsAvaliable { get; set; }
 
         private UIObjHolder m_holder;
         
@@ -52,6 +56,7 @@ namespace GameFrame.Logic
 
         public void InternalClose()
         {
+            group.RemoveForm(this);
             OnClose();
         }
 

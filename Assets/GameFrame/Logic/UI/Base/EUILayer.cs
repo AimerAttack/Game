@@ -7,4 +7,10 @@ namespace GameFrame.Logic
         Pop,
         Tips,
     }
+
+    public enum EUIOpenType
+    {
+        Single,
+        Multi,
+    }
 }

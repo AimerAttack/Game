@@ -8,7 +8,7 @@ namespace GameFrame.Logic
         {
             base.OnEnter();
             
-            ChangeState<ProcedureLogin>();
+            ChangeState<ProcedureCheckUpdte>();
         }
     }
 }
