@@ -27,7 +27,7 @@ namespace GameFrame.Core
             manager = CoreEntry.AddModule<ProcedureManager>();
         }
 
-        public void Start(List<GameFrameProcedureBase> procedures)
+        public void StartLogic(List<GameFrameProcedureBase> procedures)
         {
 
             if (procedures.Count == 0)

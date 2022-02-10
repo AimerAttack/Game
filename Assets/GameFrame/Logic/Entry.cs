@@ -89,7 +89,7 @@ namespace GameFrame.Logic
             procedures.Add(new ProcedureUpdateClient());
             procedures.Add(new ProcedureUpdateRes());
             
-            Procedure.Start(procedures);
+            Procedure.StartLogic(procedures);
         }
     }
 }

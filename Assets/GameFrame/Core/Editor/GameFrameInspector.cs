@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 
 namespace GameFrame.Core.Editor
@@ -40,3 +41,4 @@ namespace GameFrame.Core.Editor
         }
     }
 }
+#endif

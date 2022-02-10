@@ -1,14 +1,18 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
+using Sirenix.Utilities.Editor;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace GameEditor
 {
-    public class GameEditorTool : OdinMenuEditorWindow
+    public partial class GameEditorTool : OdinMenuEditorWindow
     {
-        [MenuItem("Tools/GameFrame")]
+        [MenuItem("Tools/工具箱")]
         public static void OpenWindow()
         {
             var window = GetWindow<GameEditorTool>();
@@ -22,24 +26,9 @@ namespace Editor
             var tree = new OdinMenuTree();
             tree.Selection.SupportsMultiSelect = false;
 
-            tree.Add("设置", GeneralDrawerConfig.Instance);
-            tree.Add("Utilities", new TextureUtilityEditor());
-            tree.AddAllAssetsAtPath("Odin Settings", "Assets/Plugins/Sirenix", typeof(ScriptableObject), true, true);
+            tree.Add("打包资源",new BuildAssetBundle());
             return tree;
         }
     }
     
-    public class TextureUtilityEditor
-    {
-        [BoxGroup("Tool"), HideLabel, EnumToggleButtons]
-        public Tool Tool;
-
-        public List<Texture> Textures;
-
-        [Button(ButtonSizes.Large), HideIf("Tool", Tool.Rotate)]
-        public void SomeAction() { }
-
-        [Button(ButtonSizes.Large), ShowIf("Tool", Tool.Rotate)]
-        public void SomeOtherAction() { }
-    }
 }

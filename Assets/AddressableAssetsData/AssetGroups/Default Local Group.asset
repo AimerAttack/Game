@@ -16,7 +16,11 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e2f8472ca36f045a0b23a8039ed45120
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 21a4b60756fe74b129774bf8d942efeb
+    m_Address: Assets/BundleRes/UI/Login.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e89675eb6395f42388ccab2e4e72da16, type: 2}
   m_SchemaSet:

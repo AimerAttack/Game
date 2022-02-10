@@ -3,35 +3,64 @@ using System.Collections.Generic;
 using GameFrame.Core;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Object = UnityEngine.Object;
 
 namespace GameFrame.Logic
 {
     public class UIManager : GameFrameComponentBase
     {
-        private ulong SortId = 0;
+        [Serializable]
+        public class GroupConfig
+        {
+            public EUILayer layer;
+            public int sortingOrder;
+        }
+        
+        
+        public RectTransform root;
 
+        [SerializeField] private List<GroupConfig> groupConfigs = new List<GroupConfig>();
 
-        private Dictionary<Type, Dictionary<ulong, UIBase>> loadingUI =
-            new Dictionary<Type, Dictionary<ulong, UIBase>>();
+        
+        private ulong SerialId = 0;
 
-        private HashSet<ulong> waitReleased = new HashSet<ulong>();
+        private Dictionary<EUILayer, UIGroup> groups = new Dictionary<EUILayer, UIGroup>();
+        
+        private Dictionary<Type, UIBase> openedUI = new Dictionary<Type, UIBase>();
+        private HashSet<Type> loadingUI = new HashSet<Type>();
+        private HashSet<ulong> releasedUI = new HashSet<ulong>();
 
         private Dictionary<Type, UIBase> poolUI = new Dictionary<Type, UIBase>();
 
-        private Dictionary<EUILayer, UIGroup> groups = new Dictionary<EUILayer, UIGroup>();
-
+        
+       
+        
         protected override void OnAwake()
         {
             base.OnAwake();
+            
+            InitGroups();
         }
 
-
-        public void AddUIGroup(EUILayer type)
+        void InitGroups()
         {
-            if(groups.ContainsKey(type))
+            for (int i = 0; i < groupConfigs.Count; i++)
+            {
+                AddUIGroup(groupConfigs[i].layer,groupConfigs[i].sortingOrder);
+            }
+        }
+
+        void AddUIGroup(EUILayer type,int sortingOrder)
+        {
+            if (groups.ContainsKey(type))
                 return;
-            var group = new UIGroup();
+            var group = new UIGroup(type.ToString());
             groups[type] = group;
+            
+            group.transform.SetParent(root,false);
+            group.transform.anchorMin = Vector2.zero;
+            group.transform.anchorMax = Vector2.one;
+            group.transform.anchoredPosition = Vector2.zero;
         }
 
         UIGroup GetUIGroup(EUILayer type)
@@ -41,93 +70,80 @@ namespace GameFrame.Logic
             return null;
         }
 
-        public void Open<T>(object param = null) where T : UIBase,new()
+        public void Open<T>(object param = null) where T : UIBase, new()
         {
             var type = typeof(T);
-            var openType = UIUtility.GetOpenType<T>();
-            switch (openType)
+
+            var existUI = GetUI<T>();
+            //有生效中的
+            if (existUI != null && existUI.IsAvaliable)
             {
-                case EUIOpenType.Single:
-                {
-                    var existUI = GetUI<T>();
-                    //有生效中的
-                    if (existUI != null && existUI.IsAvaliable)
-                    {
-                        return;
-                    }
-                    //有加载中的
-                    if(loadingUI.ContainsKey(type))
-                        return;
-                    Load<T>(param);
-                }
-                    break;
-                case EUIOpenType.Multi:
-                {
-                    Load<T>(param);
-                }
-                    break;
-                default:
-                {
-                    throw new GameFrameException($"error openType:{StackTraceUtility.ExtractStackTrace()}");
-                }
-                    break;
+                return;
             }
+
+            //有加载中的
+            if (loadingUI.Contains(type))
+                return;
+            Load<T>(param);
         }
 
-        void Load<T>(object param) where T : UIBase,new()
+        void Load<T>(object param) where T : UIBase, new()
         {
             var type = typeof(T);
             var logic = new T();
-            logic.SortId = SortId++;
-            if (!loadingUI.ContainsKey(type))
+            logic.SerialId = SerialId++;
+            logic.openParam = param;
+            loadingUI.Add(type);
+
+            Entry.Res.LoadAsset(logic.AssetPath, logic, OnLoadSuccess, OnLoadFailed);
+        }
+
+        void OnLoadSuccess(string path, object asset, object param)
+        {
+            var form = param as UIBase;
+            RemoveLoadingInfo(form);
+            if (releasedUI.Contains(form.SerialId))
             {
-                loadingUI.Add(type, new Dictionary<ulong, UIBase>());
+                releasedUI.Remove(form.SerialId);
+                return;
             }
 
-            loadingUI[type][logic.SortId] = logic;
-            var loadParam = new UILoadParam(logic, param);
-            Entry.Res.LoadAsset(logic.AssetPath,loadParam,OnLoadSuccess,OnLoadFailed);
+            CreateForm(asset, form);
         }
 
-        void OnLoadSuccess(object asset,object param)
+        void CreateForm(object asset, UIBase form)
         {
-            var p = param as UILoadParam;
-            RemoveLoadingInfo(p);
+            var obj = GameObject.Instantiate((UnityEngine.Object) asset) as GameObject;
+            form.BindObj(obj);
         }
 
-        void OnLoadFailed(object param)
+        void OnLoadFailed(string path, object param)
         {
-            var p = param as UILoadParam;
-            RemoveLoadingInfo(p);
+            var form = param as UIBase;
+            RemoveLoadingInfo(form);
+            if (releasedUI.Contains(form.SerialId))
+                releasedUI.Remove(form.SerialId);
         }
 
-        void RemoveLoadingInfo(UILoadParam p)
+        void RemoveLoadingInfo(UIBase form)
         {
-            if (loadingUI.TryGetValue(p.type, out Dictionary<ulong, UIBase> dic))
-            {
-                dic.Remove(p.logic.SortId);
-            }
+            loadingUI.Remove(form.GetType());
         }
 
         public bool IsLoading(UIBase ui)
         {
-            if (loadingUI.TryGetValue(ui.GetType(), out Dictionary<ulong, UIBase> dic))
-            {
-                if (dic.ContainsKey(ui.SortId))
-                    return true;
-            }
-            return false;
+            return loadingUI.Contains(ui.GetType());
         }
 
         public void Close(UIBase ui)
         {
             if (IsLoading(ui))
             {
-                waitReleased.Add(ui.SortId);
+                releasedUI.Add(ui.SerialId);
             }
             else
             {
-                var form = GetUI(ui.GetType(), ui.SortId);
+                var form = GetUI(ui.GetType(), ui.SerialId);
                 if (form != null)
                 {
                     form.InternalClose();
@@ -139,30 +155,15 @@ namespace GameFrame.Logic
         {
             return null;
         }
-        
+
         T GetUI<T>() where T : UIBase
         {
+            var type = typeof(T);
+            if (openedUI.TryGetValue(type, out UIBase ui))
+            {
+                return ui as T;
+            }
             return null;
-        }
-
-        class UILoadParam
-        {
-            public object param;
-            public UIBase logic;
-
-            public Type type
-            {
-                get
-                {
-                    return logic.GetType();
-                }
-            }
-
-            public UILoadParam(UIBase _logic,object _param)
-            {
-                logic = _logic;
-                param = _param;
-            }
         }
     }
 }

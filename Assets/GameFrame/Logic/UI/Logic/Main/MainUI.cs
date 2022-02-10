@@ -15,7 +15,6 @@ namespace GameFrame.Logic
         protected override void OnOpen()
         {
             base.OnOpen();
-
         }
     }
 }

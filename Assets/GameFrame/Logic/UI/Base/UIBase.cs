@@ -5,7 +5,7 @@ namespace GameFrame.Logic
 {
     public abstract class UIBase : IComparable<UIBase>
     {
-        public ulong SortId { get; set; }
+        public ulong SerialId { get; set; }
         public abstract string AssetPath { get;}
         public abstract EUILayer UILayer { get; }
 
@@ -25,7 +25,7 @@ namespace GameFrame.Logic
         
         public int CompareTo(UIBase other)
         {
-            return SortId.CompareTo(other.SortId);
+            return SerialId.CompareTo(other.SerialId);
         }
 
         public void BindObj(GameObject obj)

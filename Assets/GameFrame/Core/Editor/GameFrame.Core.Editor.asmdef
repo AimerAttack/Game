@@ -1,0 +1,16 @@
+{
+    "name": "GameFrame.Core.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6d561bf2bd58c4d009c555946157008d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

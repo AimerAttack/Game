@@ -6,11 +6,6 @@ namespace GameFrame.Logic
         Normal,
         Pop,
         Tips,
-    }
-
-    public enum EUIOpenType
-    {
-        Single,
-        Multi,
+        Guide,
     }
 }

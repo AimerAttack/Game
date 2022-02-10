@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace GameFrame.Core
 {
-    public abstract class GameFrameComponentBase
+    public abstract class GameFrameComponentBase : MonoBehaviour
     {
-        public GameFrameComponentBase()
+        private void Awake()
         {
             CoreEntry.RegistComponent(this);
             OnAwake();
