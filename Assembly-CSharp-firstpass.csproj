@@ -904,6 +904,10 @@
       <Project>{590fa946-ca1b-1aa9-b96c-91ab90100baa}</Project>
       <Name>GameFrame.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="GameFrame.Utility.csproj">
+      <Project>{d417b471-a72d-f952-6978-6def59256bef}</Project>
+      <Name>GameFrame.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
