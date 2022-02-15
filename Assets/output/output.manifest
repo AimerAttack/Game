@@ -1,8 +1,0 @@
-ManifestFileVersion: 1
-CompatibilityAssetBundleManifest:
-  AssetBundleInfos:
-    Info_0:
-      Name: login
-      Hash: 9ef359a24d2c5cde1814985b3aca3758
-      CRC: 3364161085
-      Dependencies: {}
