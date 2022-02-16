@@ -108,10 +108,16 @@ class AddressableLoader
 
     void OnComplete(AsyncOperationHandle<Object> obj)
     {
-        loader.Completed -= OnComplete;
-        handle = obj;
-        if (complete != null)
-            complete(obj.Result);
+        if (obj.Status == AsyncOperationStatus.Succeeded)
+        {
+            handle = obj;
+            if (complete != null)
+                complete(obj.Result);
+        }
+        else
+        {
+            //
+        }
     }
 
     public void Start()
@@ -122,7 +128,8 @@ class AddressableLoader
 
     public void Release()
     {
-        Addressables.Release(handle);
+        // Addressables.Release(handle);
+        Addressables.Release(loader);
     }
     
     
