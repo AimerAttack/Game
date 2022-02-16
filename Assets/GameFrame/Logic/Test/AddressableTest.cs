@@ -7,7 +7,6 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
-
 class AddressableTest : MonoBehaviour
 {
     public List<AssetReference> m_Characters;
