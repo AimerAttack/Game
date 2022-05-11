@@ -768,12 +768,6 @@
      <Reference Include="Unity.InputSystem">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ResourceManager">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -789,6 +783,14 @@
     <ProjectReference Include="GameFrame.Utility.csproj">
       <Project>{d417b471-a72d-f952-6978-6def59256bef}</Project>
       <Name>GameFrame.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.csproj">
+      <Project>{627fe88d-713b-77b4-8c34-7d55aafe09c0}</Project>
+      <Name>Unity.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ResourceManager.csproj">
+      <Project>{6277784c-e57f-5c8a-c776-9c027cda89e9}</Project>
+      <Name>Unity.ResourceManager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

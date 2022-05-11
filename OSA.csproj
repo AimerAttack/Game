@@ -70,8 +70,8 @@
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/NestedScrollViewsSameDirectionSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/SmoothScrollCancellingEvents.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefab.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/DotNETCoreCompat.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/DotNETCoreCompat.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Grid/GridExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleNestedScrollViews/SimpleNestedScrollViewsExampleChildList.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/ViewHolders/BaseVH.cs" />

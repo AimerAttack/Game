@@ -9,7 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifyShaderEditor", "Ampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Logic", "GameFrame.Logic.csproj", "{fb17d7d6-36db-d565-7732-93a13c097017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ResourceManager", "Unity.ResourceManager.csproj", "{6277784c-e57f-5c8a-c776-9c027cda89e9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Addressables.Editor", "Unity.Addressables.Editor.csproj", "{bfd21d48-88e2-f296-7b15-76f37ba307db}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{e57eca08-94d3-dfd9-414a-873d43438b57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Addressables", "Unity.Addressables.csproj", "{627fe88d-713b-77b4-8c34-7d55aafe09c0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}"
 EndProject
@@ -42,8 +48,14 @@ Global
 		{171caa5b-f503-9bdd-dac1-4ae36e40b428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fb17d7d6-36db-d565-7732-93a13c097017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fb17d7d6-36db-d565-7732-93a13c097017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6277784c-e57f-5c8a-c776-9c027cda89e9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6277784c-e57f-5c8a-c776-9c027cda89e9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bfd21d48-88e2-f296-7b15-76f37ba307db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bfd21d48-88e2-f296-7b15-76f37ba307db}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e57eca08-94d3-dfd9-414a-873d43438b57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e57eca08-94d3-dfd9-414a-873d43438b57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627fe88d-713b-77b4-8c34-7d55aafe09c0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627fe88d-713b-77b4-8c34-7d55aafe09c0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b0ee9dfe-529b-139f-2ee5-70ca54b44e0d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6a8f88d8-e1ab-9bc4-1a38-f65a81021668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

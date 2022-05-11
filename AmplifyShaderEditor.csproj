@@ -140,8 +140,8 @@
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/SimpleNodes/SimpleRemainderNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Menu/Palette/PalettePopUp.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/FogAndAmbient/FogParamsNode.cs" />
-     <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/InstanceIdNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/BreakToComponentsNode.cs" />
+     <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Various/InstanceIdNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Utils/RectExtension.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/LogicalOperators/TFHCCompareGreaterEqual.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Master/TessellationOpHelper.cs" />

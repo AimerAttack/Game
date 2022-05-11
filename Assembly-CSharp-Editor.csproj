@@ -774,9 +774,6 @@
      <Reference Include="Unity.Burst">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.ResourceManager">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
@@ -819,9 +816,6 @@
      <Reference Include="Unity.InputSystem">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Addressables.Editor">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
@@ -848,9 +842,6 @@
      </Reference>
      <Reference Include="Unity.ScriptableBuildPipeline.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -881,6 +872,10 @@
       <Project>{171caa5b-f503-9bdd-dac1-4ae36e40b428}</Project>
       <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.csproj">
+      <Project>{627fe88d-713b-77b4-8c34-7d55aafe09c0}</Project>
+      <Name>Unity.Addressables</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{e57eca08-94d3-dfd9-414a-873d43438b57}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
@@ -893,6 +888,10 @@
       <Project>{87c81707-38bf-8333-2f69-dfa4af012f62}</Project>
       <Name>GameFrame.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ResourceManager.csproj">
+      <Project>{6277784c-e57f-5c8a-c776-9c027cda89e9}</Project>
+      <Name>Unity.ResourceManager</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
@@ -904,6 +903,10 @@
     <ProjectReference Include="GameFrame.Core.Editor.csproj">
       <Project>{590fa946-ca1b-1aa9-b96c-91ab90100baa}</Project>
       <Name>GameFrame.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Addressables.Editor.csproj">
+      <Project>{bfd21d48-88e2-f296-7b15-76f37ba307db}</Project>
+      <Name>Unity.Addressables.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="GameFrame.Logic.csproj">
       <Project>{fb17d7d6-36db-d565-7732-93a13c097017}</Project>
