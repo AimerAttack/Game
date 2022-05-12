@@ -44,6 +44,9 @@
      <Compile Include="Assets/GameFrame/Utility/Extension/PointDataExtension.cs" />
      <Compile Include="Assets/GameFrame/Utility/YieldUtility.cs" />
      <Compile Include="Assets/GameFrame/Utility/UI/ButtonPro.cs" />
+     <Compile Include="Assets/GameFrame/Utility/Extension/ObjectExtension.cs" />
+     <Compile Include="Assets/GameFrame/Utility/UI/ButtonProTest.cs" />
+     <Compile Include="Assets/GameFrame/Utility/Extension/EventExtension.cs" />
      <None Include="Assets/GameFrame/Utility/GameFrame.Utility.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

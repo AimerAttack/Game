@@ -16,11 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e2f8472ca36f045a0b23a8039ed45120
-  m_SerializeEntries:
-  - m_GUID: db046b36a2bd745e584bd25cceeac3b0
-    m_Address: Assets/CleanShot 2022-02-14 at 16.57.06@2x.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e89675eb6395f42388ccab2e4e72da16, type: 2}
   m_SchemaSet:
