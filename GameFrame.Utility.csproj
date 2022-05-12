@@ -44,6 +44,9 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.2.0a10/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/GameFrame/Utility/Editor/ClickEventEditor.cs" />
+     <Compile Include="Assets/GameFrame/Utility/ddd.cs" />
+     <Compile Include="Assets/GameFrame/Utility/UI/ClickEvent.cs" />
      <Compile Include="Assets/GameFrame/Utility/YieldUtility.cs" />
      <None Include="Assets/GameFrame/Utility/GameFrame.Utility.asmdef" />
      <Reference Include="UnityEngine">
