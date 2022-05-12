@@ -69,7 +69,8 @@ namespace GameFrame.Utility.UI
             _LastDragPosition = _PointDownPosition;
             _PointDownTime = Time.unscaledTime;
             _PointDown = true;
-            StartCoroutine("CheckHold");
+            if (UseHold)
+                StartCoroutine("CheckHold");
         }
 
         public void OnPointerUp(PointerEventData eventData)
@@ -92,7 +93,8 @@ namespace GameFrame.Utility.UI
                     }
                 }
             }
-            StopCoroutine("CheckHold");
+            if(UseHold)
+                StopCoroutine("CheckHold");
 
             _PointDown = false;
             _Dragging = false;
