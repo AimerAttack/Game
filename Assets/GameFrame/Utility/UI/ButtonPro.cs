@@ -35,7 +35,7 @@ namespace GameFrame.Utility.UI
         [LabelText("子节点响应拖拽")] public bool ChildResponseDrag = false;
 
         public UnityEvent OnClick;
-        public BoolAction<GameObject> OnDrop;
+        public Predicate<GameObject> OnDrop;
         public UnityEvent OnHold;
 
         private ButtonPro _Parent;
