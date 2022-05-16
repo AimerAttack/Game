@@ -145,6 +145,7 @@
      <None Include="Assets/ThridParty/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/Unlit.shader" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/Shaders/ComputeShader.compute" />
      <None Include="Assets/ThridParty/XLua/Resources/perf/memory.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <None Include="Assets/ThridParty/XLua/Examples/03_UIEvent/ButtonInteraction.lua.txt" />
