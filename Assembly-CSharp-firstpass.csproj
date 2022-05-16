@@ -413,6 +413,9 @@
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="BehaviorDesigner.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Assets/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
      </Reference>

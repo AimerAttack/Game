@@ -1020,6 +1020,12 @@
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="BehaviorDesigner.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Assets/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="BehaviorDesigner.Editor">
+     <HintPath>/Users/attack/Documents/Game/Assets/Behavior Designer/Editor/BehaviorDesigner.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/attack/Documents/Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>

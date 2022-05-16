@@ -50,6 +50,12 @@
      <Compile Include="Assets/Editor/GameEditorTool.BuildAssetBundle.cs" />
      <Compile Include="Assets/ThridParty/XLua/Src/Editor/Generator.cs" />
      <Compile Include="Assets/Editor/CustomHierarchyEditor.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/Object Drawers/IntSliderDrawer.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/BehaviorTreeInspector.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/Object Drawers/StackedActionDrawer.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/Object Drawers/StackedConditionalDrawer.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/Object Drawers/FloatSliderDrawer.cs" />
+     <Compile Include="Assets/Behavior Designer/Editor/ExternalBehaviorTreeInspector.cs" />
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/LuaInterfaceBridge.tpl.txt" />
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/LuaWrapPusher.tpl.txt" />
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/LuaDelegateWrap.tpl.txt" />
@@ -63,6 +69,7 @@
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/TemplateCommon.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/LuaDelegateBridge.tpl.txt" />
      <None Include="Assets/ThridParty/XLua/Src/Editor/Template/LuaEnumWrap.tpl.txt" />
+     <None Include="Assets/Behavior Designer/Editor/GridShader.shader" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -377,6 +384,12 @@
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="BehaviorDesigner.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Assets/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="BehaviorDesigner.Editor">
+     <HintPath>/Users/attack/Documents/Game/Assets/Behavior Designer/Editor/BehaviorDesigner.Editor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/attack/Documents/Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
