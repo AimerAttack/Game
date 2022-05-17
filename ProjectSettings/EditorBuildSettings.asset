@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VFX/demo_vfx.unity
+    guid: 4aa70281db6b24551b30a51bd063e628
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 0d7dd99fb149e4e24a6bbf73cd100e65, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: f677401a37eec4fdc8ca5c58ec93ab2f, type: 2}
