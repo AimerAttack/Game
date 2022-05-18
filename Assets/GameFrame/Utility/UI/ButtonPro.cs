@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 namespace GameFrame.Utility.UI
 {
-    public class ButtonPro : MonoBehaviour,IPointerDownHandler, IPointerUpHandler, IDragHandler
+    public class ButtonPro : Button,IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
         public Graphic Target;
         [LabelText("点击事件时间阈值")]
@@ -103,10 +103,12 @@ namespace GameFrame.Utility.UI
                 _Parent._PointDownPosition = eventData.GETPointerBy(_Parent._RectParent);
                 _Parent._LastDragPosition = eventData.GETPointerBy(_Parent._RectParent);
             }
+            DoStateTransition(SelectionState.Pressed, true);
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
+            DoStateTransition(SelectionState.Normal, true);
             if(UseDrop || _Parent != null && _Parent.UseDrop)
                 _RestoreRaycast();
             if (_Dragging)
