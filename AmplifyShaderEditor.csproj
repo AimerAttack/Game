@@ -400,8 +400,8 @@
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Templates/TemplatePostProcessor.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Vertex/VertexDataNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Textures/RotatorNode.cs" />
-     <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/UnityObjToViewPosHlpNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Operators/TanOpNode.cs" />
+     <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/HelperFuncs/UnityObjToViewPosHlpNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Misc/RelayNode.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/CustomDrawers/ASEBeginDecorator.cs" />
      <Compile Include="Assets/Plugins/AmplifyShaderEditor/Plugins/Editor/Nodes/Constants/ShaderVariables/Transform/InverseViewProjectionMatrixNode.cs" />

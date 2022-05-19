@@ -345,10 +345,14 @@ namespace GameFrame.Utility.UI
         /// </summary>
         public float alphaFadeSpeed { get { return m_AlphaFadeSpeed; } set { m_AlphaFadeSpeed = value; } }
 
+        public Ease Ease = Ease.InOutCubic;
+
         private GameObject m_Dropdown;
         private GameObject m_Blocker;
         private List<DropdownItem> m_Items = new List<DropdownItem>();
         private Tween m_AlphaTweenRunner;
+        private Tween m_MaskTweenRunner;
+        private bool _Reverse;
         private bool validTemplate = false;
         private Coroutine m_Coroutine = null;
 
@@ -857,6 +861,7 @@ namespace GameFrame.Utility.UI
             Vector3[] corners = new Vector3[4];
             dropdownRectTransform.GetWorldCorners(corners);
 
+            _Reverse = false;
             RectTransform rootCanvasRectTransform = rootCanvas.transform as RectTransform;
             Rect rootCanvasRect = rootCanvasRectTransform.rect;
             for (int axis = 0; axis < 2; axis++)
@@ -872,8 +877,13 @@ namespace GameFrame.Utility.UI
                         break;
                     }
                 }
+
                 if (outside)
+                {
                     RectTransformUtility.FlipLayoutOnAxis(dropdownRectTransform, axis, false, false);
+                    if (axis == 1)
+                        _Reverse = true;
+                }
             }
 
             for (int i = 0; i < m_Items.Count; i++)
@@ -884,6 +894,16 @@ namespace GameFrame.Utility.UI
                 itemRect.anchoredPosition = new Vector2(itemRect.anchoredPosition.x, offsetMin.y + itemSize.y * (m_Items.Count - 1 - i) + itemSize.y * itemRect.pivot.y);
                 itemRect.sizeDelta = new Vector2(itemRect.sizeDelta.x, itemSize.y);
             }
+
+            var mask = dropdownRectTransform.GetComponent<RectMask2D>();
+            var pad = mask.padding;
+            if(_Reverse)
+                pad.w = dropdownRectTransform.sizeDelta.y;
+            else
+            {
+                pad.y = dropdownRectTransform.sizeDelta.y;
+            }
+            mask.padding = pad;
 
             // Fade in the popup
             AlphaFadeList(m_AlphaFadeSpeed, 0f, 1f);
@@ -1065,11 +1085,43 @@ namespace GameFrame.Utility.UI
             if (end.Equals(start))
                 return;
 
+            m_AlphaTweenRunner?.Kill();
+            m_MaskTweenRunner?.Kill();
+            
             CanvasGroup group = m_Dropdown.GetComponent<CanvasGroup>();
             group.alpha = start;
-            m_AlphaTweenRunner?.Kill();
+            m_AlphaTweenRunner = DOTween.To(() => group.alpha, (a) => group.alpha = a,end,duration).SetUpdate(true).SetEase(Ease);
 
-            m_AlphaTweenRunner = DOTween.To(() => group.alpha, (a) => group.alpha = a,end,duration).SetUpdate(true);
+            RectMask2D mask = m_Dropdown.GetComponent<RectMask2D>();
+            float maskHeight = m_Dropdown.GetComponent<RectTransform>().sizeDelta.y;;
+            float maskEnd = 0;
+            if (end == 0)
+            {
+                maskEnd = maskHeight;
+            }
+            else
+            {
+                maskEnd = 0;
+            }
+
+            if (_Reverse)
+            {
+                m_MaskTweenRunner = DOTween.To(() => mask.padding.w, (bottom) =>
+                {
+                    var padding = mask.padding;
+                    padding.w = bottom;
+                    mask.padding = padding;
+                }, maskEnd, duration).SetUpdate(true).SetEase(Ease); 
+            }
+            else
+            {
+                m_MaskTweenRunner = DOTween.To(() => mask.padding.y, (bottom) =>
+                {
+                    var padding = mask.padding;
+                    padding.y = bottom;
+                    mask.padding = padding;
+                }, maskEnd, duration).SetUpdate(true).SetEase(Ease);
+            }
         }
 
         private void SetAlpha(float alpha)
@@ -1126,6 +1178,7 @@ namespace GameFrame.Utility.UI
 
             if (m_AlphaTweenRunner != null)
                 m_AlphaTweenRunner.Kill();
+            m_MaskTweenRunner?.Kill();
 
             m_Dropdown = null;
             m_Coroutine = null;
