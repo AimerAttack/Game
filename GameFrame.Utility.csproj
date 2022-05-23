@@ -47,9 +47,9 @@
      <Compile Include="Assets/GameFrame/Utility/Pool.cs" />
      <Compile Include="Assets/GameFrame/Utility/UI/ButtonPro.cs" />
      <Compile Include="Assets/GameFrame/Utility/UI/TMP_DefaultControlsPro.cs" />
+     <Compile Include="Assets/GameFrame/Utility/UI/PolygonImage.cs" />
      <Compile Include="Assets/GameFrame/Utility/UI/TMP_DropdownPro.cs" />
      <Compile Include="Assets/GameFrame/Utility/Editor/TMPro_CreateObjectMenuPro.cs" />
-     <Compile Include="Assets\GameFrame\Utility\UI\PolygonImage.cs" />
      <None Include="Assets/GameFrame/Utility/GameFrame.Utility.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
