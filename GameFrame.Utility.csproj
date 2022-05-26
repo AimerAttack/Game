@@ -297,6 +297,9 @@
      <Reference Include="UnityEditor.iOS.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
      <Reference Include="DemiEditor">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
      </Reference>
@@ -351,20 +354,17 @@
      <Reference Include="Sirenix.Utilities">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Serialization">
-     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
-     </Reference>
      <Reference Include="Google.Protobuf">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/Google.Protobuf.dll</HintPath>
      </Reference>
-     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-     </Reference>
-     <Reference Include="ICSharpCode.SharpZipLib">
-     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Excel">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Excel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.Unsafe">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

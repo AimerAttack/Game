@@ -1,3 +1,4 @@
+using System;
 using System.Data;
 using System.IO;
 using Excel;
@@ -6,16 +7,16 @@ namespace GameFrame.Core
 {
     public class ExcelReader
     {
-        static DataRowCollection ReadExcel(string filePath, ref int columnnum, ref int rownum)
+        public static void ReadExcel(string filePath,Action<DataRow> on)
         {
             FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
             IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);
             DataSet result = excelReader.AsDataSet(); 
-            //Tables[0] 下标0表示excel文件中第一张表的数据
-            columnnum = result.Tables[0].Columns.Count;
-            rownum = result.Tables[0].Rows.Count;
             stream.Close();
-            return result.Tables[0].Rows; 
+            for (int i = 1; i < result.Tables[0].Rows.Count; i++)
+            {
+                on(result.Tables[0].Rows[i]);
+            }
         }
     }
 }
