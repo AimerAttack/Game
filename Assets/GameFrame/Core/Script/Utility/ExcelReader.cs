@@ -1,5 +1,6 @@
 using System.Data;
 using System.IO;
+using Excel;
 
 namespace GameFrame.Core
 {

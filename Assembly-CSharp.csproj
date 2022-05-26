@@ -260,6 +260,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/AudioSource/SetIgnoreListenerVolume.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/SetLookAtWeight.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/IntOperator.cs" />
+     <Compile Include="Assets/Scripts/TestUtf16.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SharedVariables/CompareSharedInt.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector3/Distance.cs" />
      <Compile Include="Assets/ThridParty/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
@@ -653,7 +654,6 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/LookAt.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector2/ClampMagnitude.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/IsStopped.cs" />
-     <Compile Include="Assets/Scripts/TestUtf16.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -984,6 +984,12 @@
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Excel.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

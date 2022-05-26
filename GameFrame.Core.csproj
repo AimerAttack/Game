@@ -85,6 +85,7 @@
      <Compile Include="Assets/GameFrame/Core/Script/Base/GameFrameworkEventArgs.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/CoreEntry.Modules.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Res/IResourceManager.cs" />
+     <Compile Include="Assets/GameFrame/Core/Script/Utility/ExcelReader.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Base/ShutDownType.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Event/EventComponent.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Network/NetworkComponent.cs" />
@@ -95,7 +96,6 @@
      <Compile Include="Assets/GameFrame/Core/Script/WebRequest/WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Log/LogLevel.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Base/GameFrameModule.cs" />
-     <Compile Include="Assets\GameFrame\Core\Script\Utility\ExcelReader.cs" />
      <None Include="Assets/GameFrame/Core/GameFrame.Core.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -405,6 +405,12 @@
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Excel.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

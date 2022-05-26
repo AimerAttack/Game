@@ -387,6 +387,12 @@
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Excel.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
      </Reference>

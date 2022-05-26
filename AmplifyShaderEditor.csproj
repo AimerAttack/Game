@@ -1026,6 +1026,12 @@
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Excel.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/attack/Documents/Game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
