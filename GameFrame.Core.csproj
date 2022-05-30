@@ -50,6 +50,7 @@
      <Compile Include="Assets/GameFrame/Core/Script/Fsm/IFsm.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/WebRequest/WWWFormInfo.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Base/GameFrameworkAction.cs" />
+     <Compile Include="Assets/GameFrame/Core/~Test/ExcelTest.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/WebRequest/WebRequestSuccessEventArgs.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Res/RuntimeResourceManager.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/WebRequest/WebRequestAgentHelperErrorEventArgs.cs" />
@@ -96,7 +97,6 @@
      <Compile Include="Assets/GameFrame/Core/Script/WebRequest/WebRequestFailureEventArgs.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Log/LogLevel.cs" />
      <Compile Include="Assets/GameFrame/Core/Script/Base/GameFrameModule.cs" />
-     <Compile Include="Assets/GameFrame/Core/~Test/ExcelTest.cs" />
      <None Include="Assets/GameFrame/Core/GameFrame.Core.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
