@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\OSA\</OutputPath>
-    <DefineConstants>UNITY_2022_1_0;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ODIN_INSPECTOR;ODIN_INSPECTOR_3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_1_0;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ODIN_INSPECTOR;ODIN_INSPECTOR_3;AMPLIFY_SHADER_EDITOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,127 +41,64 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/IncrementalItemFetch/IncrementalItemFetchExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/AnimatedInsertRemove/AnimatedInsertRemoveExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewFloatingDropdown.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableValueSortType.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/ViewHolders/SimpleBaseVH.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithToggle.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/HierarchyWithStickyHeaders/OSAHierarchyStickyHeader.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewTextInputController.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/NestedScrollViewsSameDirectionSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ContentSizeOrPositionChangeParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/ItemCountChangeMode.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/LongClickableItem.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DateTimePicker/DateTimePickerSimpleSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/GridView/GridParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyNodeViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/MultiplePrefabsSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/AspectRatioFitterByLayoutElement.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/TupleAdapter.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SelectAndDelete/SelectAndDeleteSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/ViewHolders/BidirectionalVH.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/ScreenAutoRotationPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableViewUtil.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/Models/AdModel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/DateTimePicker/DateTimePickerAdapter.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Gallery/GalleryScale.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSA.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableViewConst.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/UIUtils8.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/ViewHolders/PortraitVH.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/MultiplePrefabsExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Gallery/GalleryRotation.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/AdditionalComponents/OSAPercentageContentPaddingSetter.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyNodeModel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/HierarchyWithStickyHeaders/HierarchyWithStickyHeadersSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/HierarchyExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/PackedGrid/PackedGridSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/Models/OrangeModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/ExpandCollapseAnimationState.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/IncrementalItemFetch/IncrementalItemFetchSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/DifferentPrefabPerOrientationSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/BaseItemViewsHolder.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Table/TableViewExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/PullToRefresh/PullToRefreshGizmo.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/TupleValueViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITableViewCommandPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/PageView/PageViewSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/GridView/CellGroupViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicHeaderValueViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ExpandToVariableSize/ExpandItemToVariableSizeExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableAdapter.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/ViewHolders/ExpandableVH.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimplePullToRefresh/SimplePullToRefreshExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/DemosUtil.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/SimpleMultiplePrefabsSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/DifferentPrefabPerOrientationExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/GridView/GridAdapter.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSASubComponents.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/Singleton8.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableData.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ExpandToVariableSize/ExpandItemToVariableSizeSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/ItemsDescriptor.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAException.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTuple.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/Models/BaseModel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViews/ChildGridExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/ViewHolders/BaseVH.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableValueType.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/AbstractViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/Animations/ExpandCollapseAnimationState.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationCancellingEvents.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/Models/BidirectionalModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAConst.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Table/TableViewSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/OSATitle.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/LoopingSpinners/LoopingSpinnerExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/WithInputPanel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/NestedScrollViewsSameDirectionExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/AsyncBufferredTableData.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewText.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Simple/SimpleExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicColumnState.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ItemDragging/ItemDraggingExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/UnityScrollRectProxy.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/BufferredTableData.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/BaseParams.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/PullToRefresh/PullToRefreshBehaviour.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/Optimization/ShadowRemover.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithInputPanel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Main/MainExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/AsyncLoadingUIController.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/UserAnimationsCancellingEvents.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableColumns.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesDataUtil.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicTupleAdapter.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ComputeVisibilityManager.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Snapper8.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/NonInteractableScrollRect.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/ScrollbarFixer8.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefabAndData.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ReleaseFromPullManager.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/RemoteImageBehaviour.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViews/NestedScrollViewsExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/AsyncBufferredDataSource.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/ITableViewFloatingDropdown.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefabAndLazyData.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/Pools/FIFOCachingPool.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITuple.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableViewOptionsPanel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/IColumnState.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/PullToRefresh/PullToRefreshRotateGizmo.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Extensions/VectorExtensions.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Gallery/GalleryAnimation.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/SimpleFPSCounter.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/LazyList.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/TupleParams.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Grid/GridSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/PackedGrid/PackedGridExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Chat/ChatSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/NavigationManager.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/LazyDataHelper.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/SmoothScrollCancellingEvents.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/ViewHolders/BaseVH.cs" />
@@ -169,65 +106,138 @@
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleNestedScrollViews/SimpleNestedScrollViewsExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicColumnInfo.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Main/ObjectsVirtualParent.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/ITupleAdapter.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITableColumns.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/SimpleImageDownloader.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/OSASnapperFocusedItemInfo.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewFloatingDropdownController.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/SimpleImageColorBouncer.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITupleProvider.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Simple/SimpleSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/Models/GreenModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationFunctionType.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ContentSizeFitter/ContentSizeFitterSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollbarRotateOnPull.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/Models/SimpleBaseModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationCancelling.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/Models/ExpandableModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/ResizeablePanel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/LoopingSpinners/LoopingSpinnersSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/PackedGridLayoutGroup.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAMath.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicHeaderTupleAdapter.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ExpandCollapseOnClick.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicTupleValueViewsHolder.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/HierarchySceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefab.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/InputFieldInScrollRectFixer.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Grid/GridExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableResizingMode.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/SimpleMultiplePrefabsExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAUtil.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableData.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewFloatingDropdownTMPro.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/IInitializable8.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/PageView/PageViewExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/InputFieldInScrollRectFixerBase.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/ViewHolders/GreenVH.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimplePullToRefresh/SimplePullToRefreshSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/SliderItemBehaviour.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ItemDragging/DraggableItem.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ComputeVisibilityParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleNestedScrollViews/SimpleNestedScrollViewsEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/GridView/CellViewsHolder.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/Models/CommonModel.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/InputFieldInScrollRectFixerTMPro.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Gallery/GalleryEffectParams.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/NestingManager.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Extensions/RectTransformExtensions.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyParams.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/LayoutInfo.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/AdditionalComponents/OSAContentDecorator.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Chat/ChatExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/ViewHolders/OrangeVH.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/AllowContentOutsideBoundsMode.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleNestedScrollViews/SimpleNestedScrollViewsExampleChildList.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/IOSA.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/RectTransformEdgeDragger.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyOSA.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/ScrollToPanel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ItemDragging/ItemDraggingSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/ViewHolders/LandscapeVH.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/InternalState.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/LoadSceneOnClick.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/ThirdParty/UI/ScrollRectNested.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/InputValidator.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ContentSizeFitter/ContentSizeFitterExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Main/MainSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DateTimePicker/ShowDateTimePickerButton.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithToggles.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/IncrementalItemFetch/IncrementalItemFetchExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/AnimatedInsertRemove/AnimatedInsertRemoveExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableValueSortType.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithToggle.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/HierarchyWithStickyHeaders/OSAHierarchyStickyHeader.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/NestedScrollViewsSameDirectionSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/ItemCountChangeMode.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DateTimePicker/DateTimePickerSimpleSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/GridView/GridParams.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/MultiplePrefabsSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/AspectRatioFitterByLayoutElement.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/Models/AdModel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/UIUtils8.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Gallery/GalleryRotation.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyNodeModel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/ExpandCollapseAnimationState.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/IncrementalItemFetch/IncrementalItemFetchSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/DifferentPrefabPerOrientationSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/TupleValueViewsHolder.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITableViewCommandPanel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicHeaderValueViewsHolder.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ExpandToVariableSize/ExpandItemToVariableSizeExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimplePullToRefresh/SimplePullToRefreshExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/DemosUtil.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/SimpleMultiplePrefabsSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSASubComponents.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableData.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/Singleton8.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ExpandToVariableSize/ExpandItemToVariableSizeSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/ItemsDescriptor.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTuple.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/AbstractViewsHolder.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/Animations/ExpandCollapseAnimationState.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/MultiplePrefabs/Models/BidirectionalModel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAConst.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Table/TableViewSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/LoopingSpinners/LoopingSpinnerExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/NestedScrollViewsSameDirectionExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/AsyncBufferredTableData.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewText.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicColumnState.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ItemDragging/ItemDraggingExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/BufferredTableData.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/Optimization/ShadowRemover.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Main/MainExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Extra/AsyncLoadingUIController.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableColumns.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/GridWithCategories/GridWithCategoriesDataUtil.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ComputeVisibilityManager.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Snapper8.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/ScrollbarFixer8.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/ReleaseFromPullManager.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/AsyncBufferredDataSource.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefabAndLazyData.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/Pools/FIFOCachingPool.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Basic/BasicTableViewOptionsPanel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/IColumnState.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Extensions/VectorExtensions.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/LazyList.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/PackedGrid/PackedGridExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Chat/ChatSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/NavigationManager.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/ITupleAdapter.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/SimpleImageDownloader.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/ITupleProvider.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationFunctionType.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollbarRotateOnPull.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationCancelling.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/ResizeablePanel.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/LoopingSpinners/LoopingSpinnersSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/PackedGridLayoutGroup.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/Data/Animations/AnimationParams.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicHeaderTupleAdapter.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ExpandCollapseOnClick.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Tuple/Basic/BasicTupleValueViewsHolder.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomParams/BaseParamsWithPrefab.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/InputFieldInScrollRectFixer.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Grid/GridExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableResizingMode.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAUtil.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TableData.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/TableViewFloatingDropdownTMPro.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Common/IInitializable8.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleMultiplePrefabs/ViewHolders/GreenVH.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimplePullToRefresh/SimplePullToRefreshSceneEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ItemDragging/DraggableItem.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SimpleNestedScrollViews/SimpleNestedScrollViewsEntry.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/ScrollViews/InputFieldInScrollRectFixerTMPro.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Hierarchy/IHierarchyParams.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/LayoutInfo.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/AdditionalComponents/OSAContentDecorator.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/RectTransformEdgeDragger.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithSliderPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViews/NestedScrollViewsSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/DiscreteScrollbar.cs" />
@@ -238,31 +248,21 @@
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/Extensions/TransformExtensions.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/SimpleDataHelper.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/NestedScrollViewsSameDirection/ChildGridSimpleExample.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ItemDragging/ItemDraggingSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSAInternal.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DifferentPrefabPerOrientation/ViewHolders/LandscapeVH.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/SceneEntries/DemoSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/IO/Pools/IPool.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/ButtonWithInputPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/TupleViewsHolder.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/SubComponents/InternalState.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Util/Packer2DBox.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/LoadSceneOnClick.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/ThirdParty/UI/ScrollRectNested.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/TableView/Input/InputValidator.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/ContentSizeFitter/ContentSizeFitterExample.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/CustomAdapters/DateTimePicker/DateTimePickerDialog.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/AnimatedInsertRemove/AnimatedInsertRemoveSceneEntry.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Main/MainSceneEntry.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/DataHelpers/BufferredDataSource.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/DateTimePicker/ShowDateTimePickerButton.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/Drawer/DrawerCommandPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/SelectAndDelete/SelectAndDeleteExample.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/Drawer/DrawerCommandPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/ButtonsWithOptionalInputPanel.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Core/OSADebugger.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/DotNETCoreCompat.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/frame8/IScrollRectProxy.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Demos/Common/CommandPanels/LabelWithToggles.cs" />
      <None Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/OSA.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -507,6 +507,9 @@
      <Reference Include="UnityEditor.OSXStandalone.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.Android.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.iOS.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
      </Reference>
@@ -522,11 +525,11 @@
      <Reference Include="Unity.Burst.Cecil.Pdb">
      <HintPath>/Users/attack/Documents/Game/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
-     </Reference>
      <Reference Include="DOTween">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
      <HintPath>/Users/attack/Documents/Game/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
@@ -584,6 +587,12 @@
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Common">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2022.1.0f1c1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
