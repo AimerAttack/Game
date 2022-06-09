@@ -186,6 +186,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/ParticleSystem/SetEmissionRate.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/GetKey.cs" />
      <Compile Include="Assets/ThridParty/Epic Toon FX/Demo/Scripts/ETFXTarget.cs" />
+     <Compile Include="Assets/Script/UISwitch.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/GetLocalPosition.cs" />
      <Compile Include="Assets/ThridParty/Epic Toon FX/Scripts/ETFXRotation.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Quaternion/Lerp.cs" />
@@ -207,6 +208,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/Stop.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Light/SetCullingMask.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/AudioSource/SetIgnoreListenerPause.cs" />
+     <Compile Include="Assets/Script/LUTRenderFeature.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Debug/DrawRay.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/Warp.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/AudioSource/SetLoop.cs" />
@@ -249,6 +251,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/GetAcceleration.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SharedVariables/SetSharedObjectList.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Quaternion/Slerp.cs" />
+     <Compile Include="Assets/Script/LUT.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/CharacterController/GetRadius.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/SetUpVector.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector2/GetUpVector.cs" />
@@ -643,6 +646,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Physics/Linecast.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SphereCollider/SetRadius.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector3/Normalize.cs" />
+     <Compile Include="Assets/Script/LUTRenderPass.cs" />
      <Compile Include="Assets/ThridParty/XLua/Src/StaticLuaCallbacks.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animation/Blend.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/ParticleSystem/Play.cs" />
@@ -669,10 +673,6 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/LookAt.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector2/ClampMagnitude.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/IsStopped.cs" />
-     <Compile Include="Assets/Script/LUTRenderFeature.cs" />
-     <Compile Include="Assets/Script/LUTRenderPass.cs" />
-     <Compile Include="Assets/Script/LUT.cs" />
-     <Compile Include="Assets/Script/UISwitch.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -687,7 +687,6 @@
      <None Include="Assets/ThridParty/XLua/Resources/xlua/util.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
-     <None Include="Assets/Shaders/UVMask.shader" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <None Include="Assets/ThridParty/AmplifyShaderEditor/Plugins/EditorResources/Templates/Universal/PBR.shader" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
@@ -710,6 +709,7 @@
      <None Include="Assets/Shaders/CustomLUT.shader" />
      <None Include="Assets/StreamingAssets/hero.txt" />
      <None Include="Assets/ThridParty/XLua/Examples/03_UIEvent/ButtonInteraction.lua.txt" />
+     <None Include="Assets/Shaders/New Amplify Shader.shader" />
      <None Include="Assets/ThridParty/XLua/Examples/02_U3DScripting/LuaTestScript.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/message_box.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
@@ -1545,6 +1545,12 @@
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

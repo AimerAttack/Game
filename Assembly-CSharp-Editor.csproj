@@ -954,6 +954,12 @@
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
