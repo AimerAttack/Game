@@ -42,25 +42,39 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs" />
-     <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/PutAttributesOnAnyType.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/WeaponItem.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Misc/StatType.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Runtime/CommentBlockData.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Misc/StatValue.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/ItemTypes.cs" />
+     <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Runtime/ExposedProperty.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/GenericMenuExample.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/TabGroupByDeclaringType.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Runtime/DialogueContainer.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/HealthBarExample.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Runtime/DialogueNodeData.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/CharacterOverview.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/GenericDrawerExample.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/Bar.cs" />
+     <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/InstancedDrawerExample.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/Item.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/Character.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/AttributeProcessorPriorityExample.cs" />
+     <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/SelfAndChildrenExample.cs" />
+     <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/EquipableItem.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/CustomAttributeProcessorLocatorExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/CharacterAlignment.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/CharacterEquipment.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Misc/StatType.cs" />
-     <Compile Include="Assets/Plugins/Dialogue/Runtime/CommentBlockData.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Misc/StatValue.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/ValueAndActionResolversExample.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/ItemTypes.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/ConsumableItem.cs" />
-     <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/CustomizeDictionaryKeyValueExample.cs" />
-     <Compile Include="Assets/Plugins/Dialogue/Runtime/ExposedProperty.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/GenericMenuExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/CustomGroupExample.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
@@ -69,33 +83,19 @@
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/ValidationExample.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/TabGroupByDeclaringType.cs" />
-     <Compile Include="Assets/Plugins/Dialogue/Runtime/DialogueContainer.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/MinesweeperExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/Armor.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/HealthBarExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/AttributeProcessorForListItemsExample.cs" />
-     <Compile Include="Assets/Plugins/Dialogue/Runtime/DialogueNodeData.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/BasicAttributeProcessorExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/PriorityExamples.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/CustomDrawerExample.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/CharacterOverview.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Misc/ItemSlot.cs" />
      <Compile Include="Assets/Plugins/Dialogue/Runtime/NodeLinkData.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/GenericDrawerExample.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/Foo.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/ReflectionExample.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/Bar.cs" />
-     <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Drawers/Scripts/InstancedDrawerExample.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Items/Item.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Character/Character.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/AttributeProcessorPriorityExample.cs" />
-     <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Custom Attribute Processors/Scripts/SelfAndChildrenExample.cs" />
      <None Include="Assets/Plugins/Com.TheFallenGames/OSA/ExternalResources/Packer2DBox/About.txt" />
      <None Include="Assets/Plugins/Com.TheFallenGames/OSA/Extra/PluginSupport/TMPro/TMPro instructions.txt" />
      <None Include="Assets/Plugins/Com.TheFallenGames/OSA/Extra/PluginSupport/Playmaker/README.txt" />
@@ -896,6 +896,9 @@
      <Reference Include="Unity.ResourceManager">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
      </Reference>
@@ -907,6 +910,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -940,12 +946,6 @@
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -19,6 +19,12 @@ scopes = {
 	"last_search.D6F0A2CA" = ""
 	"OpenInspectorPreview.D6F0A2CA" = "0"
 	"currentGroup.D6F0A2CA" = "all"
+	"last_search.6C5D90A9" = "cete"
+	"OpenInspectorPreview.6C5D90A9" = "0"
+	"currentGroup.6C5D90A9" = "all"
+	"last_search.785D90A9" = ""
+	"OpenInspectorPreview.785D90A9" = "0"
+	"currentGroup.785D90A9" = "all"
 }
 providers = {
 	find = {
@@ -84,6 +90,11 @@ providers = {
 	static_methods = {
 		active = true
 		priority = 85
+		defaultAction = null
+	}
+	help = {
+		active = true
+		priority = -1
 		defaultAction = null
 	}
 }

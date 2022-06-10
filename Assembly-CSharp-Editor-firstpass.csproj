@@ -41,20 +41,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Plugins/Dialogue/Editor/DialogueGraph.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/ItemSlotCellDrawer.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/OdinMenuStyleExample.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/OdinMenuEditorWindowExample.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/ItemDrawer.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs" />
-     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/ScriptableObjectCreator.cs" />
      <Compile Include="Assets/Plugins/Dialogue/Editor/DialogueGraphView.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/CharacterTable.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/SomeData.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Editor/DialogueNode.cs" />
+     <Compile Include="Assets/Plugins/Dialogue/Editor/DialogueGraph.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/OdinMenuStyleExample.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/OdinMenuEditorWindowExample.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/ItemDrawer.cs" />
+     <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/ScriptableObjectCreator.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Sample - RPG Editor/Scripts/Editor/RPGEditorWindow.cs" />
      <Compile Include="Assets/Plugins/Dialogue/Editor/GraphSaveUtility.cs" />
      <Compile Include="Assets/Plugins/Dialogue/Editor/NodeSearchWindow.cs" />
-     <Compile Include="Assets/Plugins/Dialogue/Editor/DialogueNode.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/OverrideGetTargetsExampleWindow.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/SomeTextureToolWindow.cs" />
      <Compile Include="Assets/Plugins/Sirenix/Demos/Editor Windows/Scripts/Editor/BasicOdinEditorExampleWindow.cs" />
@@ -879,6 +879,9 @@
      <Reference Include="Unity.ResourceManager">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
      </Reference>
@@ -890,6 +893,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -923,12 +929,6 @@
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

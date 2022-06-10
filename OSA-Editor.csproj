@@ -41,15 +41,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/InitOSAWindow.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CustomAdapterConfigurators/CustomAdapterConfiguratorAttribute.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/CEditor.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CWiz.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CreateOSAWindow.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CustomAdapterConfigurators/TableAdapterConfigurator.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/BaseOSAWindow.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/InitOSAWindow.cs" />
+     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CWiz.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/Util/PackedGridLayoutGroupEditor.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/MenuItems.cs" />
-     <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/BaseOSAWindow.cs" />
      <Compile Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSAWizard/CustomAdapterConfigurators/ICustomAdapterConfigurator.cs" />
      <None Include="Assets/Plugins/Com.TheFallenGames/OSA/Scripts/Editor/OSA.Editor.asmdef" />
      <Reference Include="UnityEngine">
