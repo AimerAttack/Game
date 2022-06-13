@@ -678,6 +678,10 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Renderer/SetMaterial.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/BoxCollider/GetSize.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/LookAt.cs" />
+     <Compile Include="Assets/Script/STEObject.cs" />
+     <Compile Include="Assets/Script/STEManager.cs" />
+     <Compile Include="Assets/Script/ext.cs" />
+     <Compile Include="Assets/Script/LayerGroup.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />

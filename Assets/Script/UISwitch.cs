@@ -7,6 +7,7 @@ using UnityEngine.Rendering;
 
 public class UISwitch : MonoBehaviour
 {
+    public string Layer;
     public VolumeProfile vol;
     public Comp_Luminance _comp;
     public Comp_Luminance _Realcomp;
@@ -25,14 +26,17 @@ public class UISwitch : MonoBehaviour
         {
             if (_comp.mIsEnable)
             {
+                STEManager.Close(Layer);
                 DOTween.To(() => _Realcomp.Luminance.value, x => _Realcomp.Luminance.value = x,1,Duration)
                     .OnComplete(() => _comp.mIsEnable = false).SetEase(Ease.OutQuart);
             }
             else
             {
+                STEManager.Open(Layer);
                 _comp.mIsEnable = true;
                 DOTween.To(() => _Realcomp.Luminance.value, x => _Realcomp.Luminance.value = x,0.1f,Duration).SetEase(Ease.OutQuart);
             }
         }
+
     }
 }

@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17ac21acf2278e4ab1aa4cbc60712db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Layer: Water
   vol: {fileID: 11400000, guid: 9501262afe8de4a5582efe38853d4c25, type: 2}
   _comp: {fileID: 0}
   _Realcomp: {fileID: 0}
@@ -384,7 +385,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1333670068}
   - component: {fileID: 1333670067}
-  - component: {fileID: 1333670066}
   - component: {fileID: 1333670065}
   m_Layer: 0
   m_Name: Camera
@@ -426,14 +426,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!81 &1333670066
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333670064}
-  m_Enabled: 1
 --- !u!20 &1333670067
 Camera:
   m_ObjectHideFlags: 0
@@ -460,7 +452,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 1
   m_CullingMask:
@@ -484,12 +476,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333670064}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 399.7, y: 485.30664, z: -1.1}
+  m_LocalRotation: {x: 0.003309432, y: -0.72386384, z: 0.6899262, w: 0.0034718732}
+  m_LocalPosition: {x: 390.12463, y: 499.4325, z: -0.47025204}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1560836647}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -505,7 +496,7 @@ GameObject:
   - component: {fileID: 1560836650}
   - component: {fileID: 1560836649}
   - component: {fileID: 1560836648}
-  m_Layer: 4
+  m_Layer: 5
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -519,13 +510,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560836646}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0, z: 1.57}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.003309432, y: -0.72386384, z: 0.6899262, w: 0.0034718732}
+  m_LocalPosition: {x: 389.73, y: 489.59, z: -0.75}
+  m_LocalScale: {x: 5.9410005, y: 5.941, z: 5.941001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1333670068}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1560836648
 SphereCollider:
@@ -651,6 +642,7 @@ GameObject:
   - component: {fileID: 1576758356}
   - component: {fileID: 1576758355}
   - component: {fileID: 1576758354}
+  - component: {fileID: 1576758358}
   m_Layer: 5
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -737,3 +729,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1576758358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576758353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae59dfcf4a04105b3bf8c31d7e42942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: Water
