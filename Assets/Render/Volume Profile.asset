@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1795905558375817598
+--- !u!114 &-831550093321941519
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3769df806e59468fa7a3129a5f644048, type: 3}
-  m_Name: Comp_Luminance
+  m_Name: VolumeCompLuminance
   m_EditorClassIdentifier: 
   active: 1
-  mIsEnable: 1
+  mIsEnable: 0
   Luminance:
     m_OverrideState: 1
     m_Value: 1
@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Name: Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -1795905558375817598}
+  - {fileID: -831550093321941519}
 --- !u!114 &3912489349908556506
 MonoBehaviour:
   m_ObjectHideFlags: 3

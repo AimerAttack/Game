@@ -167,7 +167,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector3/Distance.cs" />
      <Compile Include="Assets/ThridParty/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody/SetUseGravity.cs" />
-     <Compile Include="Assets/Script/RF_Luminance.cs" />
+     <Compile Include="Assets/Script/RenderFeatureLuminance.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/CircleCollider2D/SetRadius.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector2/GetMagnitude.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/SetIsKinematic.cs" />
@@ -350,7 +350,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/ParticleSystem/Play.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Conditionals/Reflection/ComparePropertyValue.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/GetLocalEulerAngles.cs" />
-     <Compile Include="Assets/Script/Comp_Luminance.cs" />
+     <Compile Include="Assets/Script/VolumeCompLuminance.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/RandomBool.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/SetAngularDrag.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/GetAxisRaw.cs" />
@@ -395,7 +395,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/BoolFlip.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/AudioSource/SetMaxDistance.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody/SetVelocity.cs" />
-     <Compile Include="Assets/Script/RP_Luminance.cs" />
+     <Compile Include="Assets/Script/RenderPassLuminance.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/SetSpeed.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Variables/SharedVector3.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/SetBoolParameter.cs" />
@@ -682,6 +682,9 @@
      <Compile Include="Assets/Script/STEManager.cs" />
      <Compile Include="Assets/Script/ext.cs" />
      <Compile Include="Assets/Script/LayerGroup.cs" />
+     <Compile Include="Assets/Script/STEEffectBase.cs" />
+     <Compile Include="Assets/Script/STELuminance.cs" />
+     <Compile Include="Assets/Script/STEHolder.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />
