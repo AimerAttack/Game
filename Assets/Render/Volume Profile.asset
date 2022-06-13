@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: VolumeCompLuminance
   m_EditorClassIdentifier: 
   active: 1
+  <displayName>k__BackingField: 
   mIsEnable: 0
   Luminance:
     m_OverrideState: 1
@@ -30,7 +31,7 @@ MonoBehaviour:
   m_Name: Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -831550093321941519}
+  - {fileID: 8076505827946308414}
 --- !u!114 &3912489349908556506
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -51,3 +52,20 @@ MonoBehaviour:
   mBrightness:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &8076505827946308414
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: VolumeCompLuminance
+  m_EditorClassIdentifier: Assembly-CSharp:Script:VolumeCompLuminance
+  active: 1
+  mIsEnable: 0
+  Luminance:
+    m_OverrideState: 1
+    m_Value: 0.432
