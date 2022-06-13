@@ -131,6 +131,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/AudioSource/SetIgnoreListenerPause.cs" />
      <Compile Include="Assets/Script/LUTRenderFeature.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Debug/DrawRay.cs" />
+     <Compile Include="Assets/Script/STELuminance.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/Warp.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SharedVariables/SetSharedTransform.cs" />
      <Compile Include="Assets/ThridParty/XLua/Examples/04_LuaObjectOrented/InvokeLua.cs" />
@@ -173,6 +174,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/SetIsKinematic.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/CrossFade.cs" />
      <Compile Include="Assets/ThridParty/Epic Toon FX/Demo/Scripts/ETFXEffectController.cs" />
+     <Compile Include="Assets/Script/STEHolder.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/GetIsKinematic.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Conditionals/Physics/HasEnteredCollision.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/IsSleeping.cs" />
@@ -207,6 +209,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/SetBool.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/GameObject/CompareTag.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/Resume.cs" />
+     <Compile Include="Assets/Script/STEObject.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Light/SetShadows.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Vector2/GetSqrMagnitude.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SharedVariables/SetSharedRect.cs" />
@@ -265,6 +268,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/LayerMask/GetLayer.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Quaternion/RotateTowards.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/ResetPath.cs" />
+     <Compile Include="Assets/Script/STEEffectBase.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/ParticleSystem/SetMaxParticles.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SharedVariables/SharedTransformToGameObject.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/AddForce.cs" />
@@ -372,6 +376,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/SphereCollider/SetCenter.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/FloatClamp.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/GetAxis.cs" />
+     <Compile Include="Assets/Script/ext.cs" />
      <Compile Include="Assets/ThridParty/XLua/Src/LuaDLL.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Decorators/TaskGuard.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Decorators/Inverter.cs" />
@@ -385,6 +390,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/IntAbs.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Conditionals/RandomProbability.cs" />
      <Compile Include="Assets/ThridParty/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+     <Compile Include="Assets/Script/LayerGroup.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Rigidbody2D/GetPosition.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Composites/PrioritySelector.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/StopPlayback.cs" />
@@ -647,6 +653,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Animator/GetStringToHash.cs" />
      <Compile Include="Assets/ThridParty/XLua/Tutorial/CSharpCallLua/CSCallLua.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/GetMousePosition.cs" />
+     <Compile Include="Assets/Script/STEManager.cs" />
      <Compile Include="Assets/ThridParty/XLua/Examples/ExampleGenConfig.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/NavMeshAgent/GetSpeed.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Behaviour/IsEnabled.cs" />
@@ -678,13 +685,7 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Renderer/SetMaterial.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/BoxCollider/GetSize.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/LookAt.cs" />
-     <Compile Include="Assets/Script/STEObject.cs" />
-     <Compile Include="Assets/Script/STEManager.cs" />
-     <Compile Include="Assets/Script/ext.cs" />
-     <Compile Include="Assets/Script/LayerGroup.cs" />
-     <Compile Include="Assets/Script/STEEffectBase.cs" />
-     <Compile Include="Assets/Script/STELuminance.cs" />
-     <Compile Include="Assets/Script/STEHolder.cs" />
+     <Compile Include="Assets/Script/STE.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -1427,11 +1428,11 @@
      <Reference Include="PsdPlugin">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>

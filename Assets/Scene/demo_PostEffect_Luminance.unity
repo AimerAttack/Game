@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 1111399207}
   - component: {fileID: 1111399210}
   - component: {fileID: 1111399209}
+  - component: {fileID: 1111399211}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -338,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17ac21acf2278e4ab1aa4cbc60712db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Layer: Water
 --- !u!114 &1111399208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +401,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: Water
+--- !u!114 &1111399211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111399203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5838c5c37e46ffb4a3f39b9069367b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1333670064
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +618,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560836646}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1575944008
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1576758354
 MeshCollider:
   m_ObjectHideFlags: 0

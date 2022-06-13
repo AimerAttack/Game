@@ -792,11 +792,11 @@
      <Reference Include="PsdPlugin">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Addressables">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>

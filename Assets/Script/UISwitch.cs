@@ -7,22 +7,21 @@ using UnityEngine.Rendering;
 
 public class UISwitch : MonoBehaviour
 {
-    private bool Effected = false;
+    public string Layer;
 
     void OnGUI()
     {
-        var buttonName = Effected ? "关" : "开";
+        var buttonName = STE.Instance.IsOpen(Layer) ? "关" : "开";
         if (GUI.Button(new Rect(0, 0, 150, 50), buttonName))
         {
-            if (Effected)
+            if (STE.Instance.IsOpen(Layer))
             {
-                GetComponent<STEHolder>().Close();
+                STE.Instance.Close(Layer);
             }
             else
             {
-                GetComponent<STEHolder>().Open();
+                STE.Instance.Open(Layer);
             }
-            Effected = !Effected;
         }
 
     }

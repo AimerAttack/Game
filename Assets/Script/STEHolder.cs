@@ -1,11 +1,15 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Camera))]
 public class STEHolder : MonoBehaviour
 {
+    public bool IsOpen { get; private set; }
+    
     public string Layer;
     
     public void Open()
     {
+        IsOpen = true;
         STEManager.Open(Layer);
         var effects = GetComponents<STEEffectBase>();
         if (effects != null)
@@ -19,6 +23,7 @@ public class STEHolder : MonoBehaviour
 
     public void Close()
     {
+        IsOpen = false;
         STEManager.Close(Layer);
         var effects = GetComponents<STEEffectBase>();
         if (effects != null)

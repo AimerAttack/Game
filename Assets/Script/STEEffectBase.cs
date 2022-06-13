@@ -1,22 +1,23 @@
 using UnityEngine;
 
+[RequireComponent(typeof(STEHolder))]
 public abstract class STEEffectBase : MonoBehaviour
 {
-    public bool Opened { get; set; }
+    public bool IsOpen { get; set; }
 
     public void Open()
     {
-        if (Opened)
+        if (IsOpen)
             return;
-        Opened = true;
+        IsOpen = true;
         OnOpen();
     }
 
     public void Close()
     {
-        if (!Opened)
+        if (!IsOpen)
             return;
-        Opened = false;
+        IsOpen = false;
         OnClose();
     }
 

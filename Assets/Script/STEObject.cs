@@ -9,6 +9,10 @@ public class STEObject : MonoBehaviour
     {
         STEManager.WaitOpen(Layer,OnOpenEvent);
         STEManager.WaitClose(Layer,OnCloseEvent);
+        
+        //Awake的时候对应特效已经开启了，执行一次OpenEvent
+        if(STE.Instance.IsOpen(Layer))
+            OnOpenEvent();
     }
 
     private void OnDestroy()
