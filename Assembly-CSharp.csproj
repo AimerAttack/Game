@@ -184,6 +184,7 @@
      <Compile Include="Assets/ThridParty/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Conditionals/StackedConditional.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/CharacterController/SetSlopeLimit.cs" />
+     <Compile Include="Assets/Script/STE.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Input/IsMouseDown.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/ParticleSystem/GetParticleCount.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Math/RandomFloat.cs" />
@@ -683,7 +684,6 @@
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Renderer/SetMaterial.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/BoxCollider/GetSize.cs" />
      <Compile Include="Assets/Behavior Designer/Runtime/Tasks/Unity/Transform/LookAt.cs" />
-     <Compile Include="Assets/Script/STE.cs" />
      <None Include="Assets/ThridParty/XLua/Examples/07_AsyncTest/Resources/async_test.lua.txt" />
      <None Include="Assets/ThridParty/XLua/Tutorial/LoadLuaScript/ByFile/Resources/byfile.lua.txt" />
      <None Include="Assets/ThridParty/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -1426,11 +1426,11 @@
      <Reference Include="PsdPlugin">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Addressables">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
      <HintPath>/Users/attack/Documents/Game/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
