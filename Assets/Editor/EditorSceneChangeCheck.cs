@@ -1,26 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [InitializeOnLoad]
 public static class EditorSceneChangeCheck
 {
-    private static string currentScene;
-
     static EditorSceneChangeCheck()
     {
-        currentScene = EditorApplication.currentScene;
-        EditorApplication.hierarchyWindowChanged += hierarchyWindowChanged;
+        UnityEditor.SceneManagement.EditorSceneManager.sceneOpened +=
+            SceneOpenedCallback;
     }
 
-    private static void hierarchyWindowChanged()
+    private static void SceneOpenedCallback(Scene scene, OpenSceneMode mode)
     {
-        if (currentScene != EditorApplication.currentScene)
-        {
-            //a scene change has happened
-            Debug.Log("Last Scene: " + currentScene);
-            currentScene = EditorApplication.currentScene;
-        }
+        Debug.Log($"SCENE LOADED : {scene.path} , mode : {mode}");
     }
 }
