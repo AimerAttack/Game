@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFrame.Core.Editor", "Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonKey", "MonKey.csproj", "{5985e2af-0e19-bd10-0b26-84a3aabd854d}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifyShaderEditor", "AmplifyShaderEditor.csproj", "{171caa5b-f503-9bdd-dac1-4ae36e40b428}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{26346f19-bd96-64e5-a156-57572db80a48}"
@@ -50,6 +52,8 @@ Global
 		{590fa946-ca1b-1aa9-b96c-91ab90100baa}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80b3ca40-45da-8b03-9f4f-6a3f0543d17b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5985e2af-0e19-bd10-0b26-84a3aabd854d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5985e2af-0e19-bd10-0b26-84a3aabd854d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171caa5b-f503-9bdd-dac1-4ae36e40b428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{171caa5b-f503-9bdd-dac1-4ae36e40b428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26346f19-bd96-64e5-a156-57572db80a48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

@@ -1015,6 +1015,10 @@
       <Project>{34922241-b727-590e-2cd7-f80b0fd37e13}</Project>
       <Name>OSA-Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="MonKey.csproj">
+      <Project>{5985e2af-0e19-bd10-0b26-84a3aabd854d}</Project>
+      <Name>MonKey</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
